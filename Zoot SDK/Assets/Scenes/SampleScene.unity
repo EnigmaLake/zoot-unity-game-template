@@ -1181,10 +1181,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DefaultSocketUrl: http://localhost:8080
-  UserAccessToken: user_access_token
-  UserId: user_id
+  UserAccessToken: todo
+  UserId: -1
   Path: /crash
-  GameRoundUuid: 8e4243fc-4699-4df7-8681-1967b473c521
+  GameRoundUuid: todo
   playAmount: 1
   coinTypeId: 0
   CurrentGameRoundStatus: {fileID: 274220923}

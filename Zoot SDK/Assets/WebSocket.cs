@@ -139,9 +139,6 @@ public class SocketManager : MonoBehaviour
          */
         client.On(WELCOME_FROM_SERVER, response =>
         {
-            var parsedResponse = response.GetValue<string>();
-            DebugHelper.LogObject(parsedResponse);
-
             Debug.Log("Incoming WELCOME_FROM_SERVER with GameRoundStatus: " + response.ToString());
 
             CurrentGameRoundStatus.SetText(WELCOME_FROM_SERVER);
@@ -152,9 +149,6 @@ public class SocketManager : MonoBehaviour
          */
         client.On(GAME_ROUND_PREPARED, response =>
         {
-            var parsedResponse = response.GetValue<string>();
-            DebugHelper.LogObject(parsedResponse);
-
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_PREPARED");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_PREPARED);
@@ -162,9 +156,6 @@ public class SocketManager : MonoBehaviour
 
         client.On(GAME_ROUND_LIVE, response =>
         {
-            var parsedResponse = response.GetValue<string>();
-            DebugHelper.LogObject(parsedResponse);
-
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_LIVE");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_LIVE);
@@ -172,9 +163,6 @@ public class SocketManager : MonoBehaviour
 
         client.On(GAME_ROUND_COMPLETED, response =>
         {
-            var parsedResponse = response.GetValue<string>();
-            DebugHelper.LogObject(parsedResponse);
-
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_COMPLETED");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_COMPLETED);
