@@ -7,7 +7,7 @@ public class SocketManager : MonoBehaviour
     private SocketIOClient.SocketIO client;
 
     public string DefaultSocketUrl = "non-empty";
-    public string UserAccessToken = "user_access_token";
+    public string UserAccessToken = "user_access_token_123";
     public string UserId = "user_id";
     public string Path = "/crash";
 
