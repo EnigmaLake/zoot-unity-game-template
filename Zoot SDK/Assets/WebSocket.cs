@@ -16,7 +16,7 @@ public class SocketManager : MonoBehaviour
         //SetSocket();
     }
 
-    public void SetSocket()
+    public void ConnectToSocket()
     {
         // Initialize the client with the socket URL and options
         client = new SocketIOClient.SocketIO(DefaultSocketUrl, new SocketIOOptions
@@ -36,6 +36,11 @@ public class SocketManager : MonoBehaviour
         };
 
         client.ConnectAsync();
+    }
+
+    public void BetRegister()
+    {
+        Debug.Log("Clicked BetRegister");
     }
 
     void OnDestroy()
