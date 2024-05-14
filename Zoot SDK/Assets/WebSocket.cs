@@ -2,6 +2,7 @@ using UnityEngine;
 using SocketIOClient;
 using System.Collections.Generic;
 
+
 public class SocketManager : MonoBehaviour
 {
     private SocketIOClient.SocketIO client;
@@ -10,6 +11,11 @@ public class SocketManager : MonoBehaviour
     public string GuestAccessToken = "your_guest_access_token";
     public string GuestUserId = "your_guest_user_id";
     public string Path = "/crash";
+
+    const string BET_REGISTER = "BET_REGISTER";
+    const string BET_DEREGISTER = "BET_DEREGISTER";
+    const string BET_CASHOUT = "BET_CASHOUT";
+    const string BET_LIST = "BET_LIST";
 
     void Start()
     {
@@ -38,9 +44,24 @@ public class SocketManager : MonoBehaviour
         client.ConnectAsync();
     }
 
-    public void BetRegister()
+    public async void BetRegister()
     {
         Debug.Log("Clicked BetRegister");
+
+        // Define the payload to send
+        var payload = new Dictionary<string, object>
+        {
+            { "gameRoundUuid", "test-123" },
+            { "userId", 15 },
+            { "userNickname", "Richard" },
+            { "playAmountInCents", 1000 },
+            { "coinType", 0 },
+            { "pictureUrl", "https://lh3.googleusercontent.com/a/ACg8ocLyp0TCe7yq2ydJJm3d32XgcP3yh8T2wEXBHL4zW2dk=s96-c" },
+            { "userAccessToken", "test-123" },
+        };
+
+        // Send the event to the server with the payload
+        await client.EmitAsync(BET_REGISTER, payload);
     }
 
     void OnDestroy()
