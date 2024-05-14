@@ -8,11 +8,15 @@ public class SocketManager : MonoBehaviour
     private SocketIOClient.SocketIO client;
 
     public string DefaultSocketUrl = "non-empty";
-    public string GuestAccessToken = "your_guest_access_token";
-    public string GuestUserId = "your_guest_user_id";
+    public string UserAccessToken = "user_access_token";
+    public string UserId = "user_id";
     public string Path = "/crash";
 
+    public string GameRoundUuid = "your_game_round_uuid";
+
+    //
     // Server Actions (from server towards client)
+    //
     const string WELCOME_FROM_SERVER = "WELCOME_FROM_SERVER";
 
     // Game round status
@@ -24,20 +28,22 @@ public class SocketManager : MonoBehaviour
     const string USER_BET_LIST_SUCCEEDED = "USER_BET_LIST_SUCCEEDED";
     const string USER_BET_LIST_FAILED = "USER_BET_LIST_FAILED";
 
-    // Register events (confirming register action)
+    // Register events (confirming play register action)
     const string BET_REGISTER_SUCCEEDED = "BET_REGISTER_SUCCEEDED";
     const string BET_REGISTER_FAILED = "BET_REGISTER_FAILED";
 
-    // Deregister events (confirming deregister action)
+    // Deregister events (confirming play deregister action)
     const string BET_DEREGISTER_SUCCEEDED = "BET_DEREGISTER_SUCCEEDED";
     const string BET_DEREGISTER_FAILED = "BET_DEREGISTER_FAILED";
 
-    // Cashout events (confirming cashout action)
+    // Cashout events (confirming play cashout action)
     const string BET_CASHOUT_SUCCEEDED = "BET_CASHOUT_SUCCEEDED";
     const string BET_CASHOUT_FAILED = "BET_CASHOUT_FAILED";
 
 
+    //
     // Client Actions (from client towards server)
+    //
     const string BET_REGISTER = "BET_REGISTER";
     const string BET_DEREGISTER = "BET_DEREGISTER";
     const string BET_CASHOUT = "BET_CASHOUT";
@@ -56,8 +62,8 @@ public class SocketManager : MonoBehaviour
             Path = Path,
             Auth = new Dictionary<string, object>
             {
-                { "authorization", $"Bearer {GuestAccessToken}" },
-                { "userId", GuestUserId }
+                { "authorization", $"Bearer {UserAccessToken}" },
+                { "userId", UserId }
             },
             Transport = SocketIOClient.Transport.TransportProtocol.WebSocket
         }) ;
@@ -94,13 +100,13 @@ public class SocketManager : MonoBehaviour
         // Define the payload to send
         var payload = new Dictionary<string, object>
         {
-            { "gameRoundUuid", "test-123" },
-            { "userId", 15 },
+            { "gameRoundUuid", GameRoundUuid },
+            { "userId", UserId },
             { "userNickname", "Richard" },
-            { "playAmountInCents", 1000 },
+            { "playAmountInCents", 100 },
             { "coinType", 0 },
             { "pictureUrl", "https://lh3.googleusercontent.com/a/ACg8ocLyp0TCe7yq2ydJJm3d32XgcP3yh8T2wEXBHL4zW2dk=s96-c" },
-            { "userAccessToken", "test-123" },
+            { "userAccessToken", UserAccessToken },
         };
 
         // Send the event to the server with the payload
