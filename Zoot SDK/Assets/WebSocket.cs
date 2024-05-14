@@ -110,14 +110,13 @@ public class SocketManager : MonoBehaviour
         client.On(BET_CASHOUT_FAILED, response =>
         {
             // Debugging incomint event payload 
-            BetCashoutFailedIncomingPayload t0 = response.GetValue<BetCashoutFailedIncomingPayload>();
+            object t0 = response.GetValue<object>();
 
             object t2 = response;
 
             Debug.Log("BET_CASHOUT_FAILED before fancy parsing");
 
             var parsedResponse = response.GetValue<string>();
-            DebugHelper.LogObject(parsedResponse);
 
             Debug.Log("BET_CASHOUT_FAILED reason: " + parsedResponse);
         });
