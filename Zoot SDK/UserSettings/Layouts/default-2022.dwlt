@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 581
-    y: 66
-    width: 732
-    height: 573
+    x: 959
+    y: 244
+    width: 641
+    height: 603
   m_ShowMode: 0
-  m_Title: NuGet For Unity
+  m_Title: Build Settings
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 100, y: 121}
+  m_MinSize: {x: 640, y: 601}
   m_MaxSize: {x: 4000, y: 4021}
   m_Maximized: 0
 --- !u!114 &2
@@ -38,12 +38,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -2
+    x: 799
     y: 66
-    width: 1728
-    height: 944
+    width: 929
+    height: 1001
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -58,17 +58,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NugetWindow
+  m_Name: BuildPlayerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 732
-    height: 573
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+    width: 641
+    height: 603
+  m_MinSize: {x: 640, y: 580}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -92,12 +92,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 732
-    height: 573
-  m_MinSize: {x: 100, y: 121}
+    width: 641
+    height: 603
+  m_MinSize: {x: 640, y: 601}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 16095
+  controlID: 1355
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -113,12 +113,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 756.5
+    x: 401.5
     y: 0
-    width: 427
-    height: 466.5
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 268
+    height: 430.5
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 30}
   m_Panes:
   - {fileID: 30}
@@ -145,8 +145,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1728
-    height: 944
+    width: 929
+    height: 1001
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -170,7 +170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1728
+    width: 929
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -191,8 +191,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 924
-    width: 1728
+    y: 981
+    width: 929
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -215,12 +215,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1728
-    height: 894
+    width: 929
+    height: 951
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 278
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,12 +242,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1728
-    height: 427.5
+    width: 929
+    height: 520.5
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 129
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,8 +265,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 808
-    height: 427.5
+    width: 545.5
+    height: 520.5
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
@@ -291,10 +291,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 808
+    x: 545.5
     y: 0
-    width: 438
-    height: 427.5
+    width: 115.5
+    height: 520.5
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
@@ -317,10 +317,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1246
+    x: 661
     y: 0
-    width: 291
-    height: 427.5
+    width: 157
+    height: 520.5
   m_MinSize: {x: 275, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 24}
@@ -344,10 +344,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1537
+    x: 818
     y: 0
-    width: 191
-    height: 427.5
+    width: 111
+    height: 520.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 26}
@@ -374,13 +374,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 427.5
-    width: 1728
-    height: 466.5
+    y: 520.5
+    width: 929
+    height: 430.5
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 127
+  controlID: 279
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,8 +398,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 756.5
-    height: 466.5
+    width: 401.5
+    height: 430.5
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 28}
@@ -425,10 +425,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1183.5
+    x: 669.5
     y: 0
-    width: 544.5
-    height: 466.5
+    width: 259.5
+    height: 430.5
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 32}
@@ -445,21 +445,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 38775846, guid: 8dc1be91775c4bb469f6b74cef450eaa, type: 3}
-  m_Name: NuGetForUnity
+  m_Script: {fileID: 12043, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 640, y: 580}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: NuGet For Unity
+    m_Text: Build Settings
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 581
-    y: 66
-    width: 732
-    height: 552
+    x: 959
+    y: 244
+    width: 641
+    height: 582
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -470,2854 +470,28 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  defaultIcon: {fileID: 2800000, guid: eec19781926cd2248b7c9abfde8db555, type: 3}
-  hasRefreshed: 1
-  numberToSkip: 0
-  serializableAvailablePackages:
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Newtonsoft.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 13.0.3
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.3/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 13.0.3
-      - <FullVersion>k__BackingField: 13.0.2
-      - <FullVersion>k__BackingField: 13.0.1
-      - <FullVersion>k__BackingField: 12.0.3
-      - <FullVersion>k__BackingField: 12.0.2
-      - <FullVersion>k__BackingField: 12.0.1
-      - <FullVersion>k__BackingField: 11.0.2
-      - <FullVersion>k__BackingField: 11.0.1
-      - <FullVersion>k__BackingField: 10.0.3
-      - <FullVersion>k__BackingField: 10.0.2
-      - <FullVersion>k__BackingField: 10.0.1
-      - <FullVersion>k__BackingField: 9.0.1
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 5.0.8
-      - <FullVersion>k__BackingField: 5.0.7
-      - <FullVersion>k__BackingField: 5.0.6
-      - <FullVersion>k__BackingField: 5.0.5
-      - <FullVersion>k__BackingField: 5.0.4
-      - <FullVersion>k__BackingField: 5.0.3
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 4.5.11
-      - <FullVersion>k__BackingField: 4.5.10
-      - <FullVersion>k__BackingField: 4.5.9
-      - <FullVersion>k__BackingField: 4.5.8
-      - <FullVersion>k__BackingField: 4.5.7
-      - <FullVersion>k__BackingField: 4.5.6
-      - <FullVersion>k__BackingField: 4.5.5
-      - <FullVersion>k__BackingField: 4.5.4
-      - <FullVersion>k__BackingField: 4.5.3
-      - <FullVersion>k__BackingField: 4.5.2
-      - <FullVersion>k__BackingField: 4.5.1
-      - <FullVersion>k__BackingField: 4.0.8
-      - <FullVersion>k__BackingField: 4.0.7
-      - <FullVersion>k__BackingField: 4.0.6
-      - <FullVersion>k__BackingField: 4.0.5
-      - <FullVersion>k__BackingField: 4.0.4
-      - <FullVersion>k__BackingField: 4.0.3
-      - <FullVersion>k__BackingField: 4.0.2
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 3.5.8
-      <Authors>k__BackingField:
-      - James Newton-King
-      <Description>k__BackingField: Json.NET is a popular high-performance JSON framework
-        for .NET
-      <TotalDownloads>k__BackingField: 4696278515
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Newtonsoft.Json/13.0.3/license
-      <ProjectUrl>k__BackingField: https://www.newtonsoft.com/json
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Json.NET
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Newtonsoft.Json.Bson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 1.0.2
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/newtonsoft.json.bson/1.0.2/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 1.0.2
-      - <FullVersion>k__BackingField: 1.0.1
-      <Authors>k__BackingField:
-      - James Newton-King
-      <Description>k__BackingField: Json.NET BSON adds support for reading and writing
-        BSON
-      <TotalDownloads>k__BackingField: 695319457
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Newtonsoft.Json.Bson/1.0.2/license
-      <ProjectUrl>k__BackingField: http://www.newtonsoft.com/json
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Newtonsoft.Json.Bson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Microsoft.AspNetCore.Mvc.NewtonsoftJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.0.4
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.mvc.newtonsoftjson/8.0.4/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.0.4
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.0.18
-      - <FullVersion>k__BackingField: 7.0.17
-      - <FullVersion>k__BackingField: 7.0.16
-      - <FullVersion>k__BackingField: 7.0.15
-      - <FullVersion>k__BackingField: 7.0.14
-      - <FullVersion>k__BackingField: 7.0.13
-      - <FullVersion>k__BackingField: 7.0.12
-      - <FullVersion>k__BackingField: 7.0.11
-      - <FullVersion>k__BackingField: 7.0.10
-      - <FullVersion>k__BackingField: 7.0.9
-      - <FullVersion>k__BackingField: 7.0.8
-      - <FullVersion>k__BackingField: 7.0.7
-      - <FullVersion>k__BackingField: 7.0.5
-      - <FullVersion>k__BackingField: 7.0.4
-      - <FullVersion>k__BackingField: 7.0.3
-      - <FullVersion>k__BackingField: 7.0.2
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.0.29
-      - <FullVersion>k__BackingField: 6.0.28
-      - <FullVersion>k__BackingField: 6.0.27
-      - <FullVersion>k__BackingField: 6.0.26
-      - <FullVersion>k__BackingField: 6.0.25
-      - <FullVersion>k__BackingField: 6.0.24
-      - <FullVersion>k__BackingField: 6.0.23
-      - <FullVersion>k__BackingField: 6.0.22
-      - <FullVersion>k__BackingField: 6.0.21
-      - <FullVersion>k__BackingField: 6.0.20
-      - <FullVersion>k__BackingField: 6.0.19
-      - <FullVersion>k__BackingField: 6.0.18
-      - <FullVersion>k__BackingField: 6.0.16
-      - <FullVersion>k__BackingField: 6.0.15
-      - <FullVersion>k__BackingField: 6.0.14
-      - <FullVersion>k__BackingField: 6.0.13
-      - <FullVersion>k__BackingField: 6.0.12
-      - <FullVersion>k__BackingField: 6.0.11
-      - <FullVersion>k__BackingField: 6.0.10
-      - <FullVersion>k__BackingField: 6.0.9
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.17
-      - <FullVersion>k__BackingField: 5.0.16
-      - <FullVersion>k__BackingField: 5.0.15
-      - <FullVersion>k__BackingField: 5.0.14
-      - <FullVersion>k__BackingField: 5.0.13
-      - <FullVersion>k__BackingField: 5.0.12
-      - <FullVersion>k__BackingField: 5.0.11
-      - <FullVersion>k__BackingField: 5.0.10
-      - <FullVersion>k__BackingField: 5.0.9
-      - <FullVersion>k__BackingField: 5.0.8
-      - <FullVersion>k__BackingField: 5.0.7
-      - <FullVersion>k__BackingField: 5.0.6
-      - <FullVersion>k__BackingField: 5.0.5
-      - <FullVersion>k__BackingField: 5.0.4
-      - <FullVersion>k__BackingField: 5.0.3
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 3.1.32
-      - <FullVersion>k__BackingField: 3.1.31
-      - <FullVersion>k__BackingField: 3.1.30
-      - <FullVersion>k__BackingField: 3.1.29
-      - <FullVersion>k__BackingField: 3.1.28
-      - <FullVersion>k__BackingField: 3.1.27
-      - <FullVersion>k__BackingField: 3.1.26
-      - <FullVersion>k__BackingField: 3.1.25
-      - <FullVersion>k__BackingField: 3.1.24
-      - <FullVersion>k__BackingField: 3.1.23
-      - <FullVersion>k__BackingField: 3.1.22
-      - <FullVersion>k__BackingField: 3.1.21
-      - <FullVersion>k__BackingField: 3.1.20
-      - <FullVersion>k__BackingField: 3.1.19
-      - <FullVersion>k__BackingField: 3.1.18
-      - <FullVersion>k__BackingField: 3.1.17
-      - <FullVersion>k__BackingField: 3.1.16
-      - <FullVersion>k__BackingField: 3.1.15
-      - <FullVersion>k__BackingField: 3.1.14
-      - <FullVersion>k__BackingField: 3.1.13
-      - <FullVersion>k__BackingField: 3.1.12
-      - <FullVersion>k__BackingField: 3.1.11
-      - <FullVersion>k__BackingField: 3.1.10
-      - <FullVersion>k__BackingField: 3.1.9
-      - <FullVersion>k__BackingField: 3.1.8
-      - <FullVersion>k__BackingField: 3.1.7
-      - <FullVersion>k__BackingField: 3.1.6
-      - <FullVersion>k__BackingField: 3.1.5
-      - <FullVersion>k__BackingField: 3.1.4
-      - <FullVersion>k__BackingField: 3.1.3
-      - <FullVersion>k__BackingField: 3.1.2
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.3
-      - <FullVersion>k__BackingField: 3.0.2
-      - <FullVersion>k__BackingField: 3.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'ASP.NET Core MVC features that use Newtonsoft.Json.
-        Includes input and output formatters for JSON and JSON PATCH.
-
-
-        This
-        package was built from the source code at https://github.com/dotnet/aspnetcore/tree/8486d31e24f30e3fa1809a95699a0adc16f448d7'
-      <TotalDownloads>k__BackingField: 395458806
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.4/license
-      <ProjectUrl>k__BackingField: https://asp.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Microsoft.AspNetCore.Mvc.NewtonsoftJson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Swashbuckle.AspNetCore.Newtonsoft
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 6.6.1
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 6.6.1
-      - <FullVersion>k__BackingField: 6.5.0
-      - <FullVersion>k__BackingField: 6.4.0
-      - <FullVersion>k__BackingField: 6.3.1
-      - <FullVersion>k__BackingField: 6.3.0
-      - <FullVersion>k__BackingField: 6.2.3
-      - <FullVersion>k__BackingField: 6.2.2
-      - <FullVersion>k__BackingField: 6.2.1
-      - <FullVersion>k__BackingField: 6.2.0
-      - <FullVersion>k__BackingField: 6.1.5
-      - <FullVersion>k__BackingField: 6.1.4
-      - <FullVersion>k__BackingField: 6.1.3
-      - <FullVersion>k__BackingField: 6.1.2
-      - <FullVersion>k__BackingField: 6.1.1
-      - <FullVersion>k__BackingField: 6.1.0
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.6.3
-      - <FullVersion>k__BackingField: 5.6.2
-      - <FullVersion>k__BackingField: 5.6.1
-      - <FullVersion>k__BackingField: 5.5.1
-      - <FullVersion>k__BackingField: 5.5.0
-      - <FullVersion>k__BackingField: 5.4.1
-      - <FullVersion>k__BackingField: 5.4.0
-      - <FullVersion>k__BackingField: 5.3.3
-      - <FullVersion>k__BackingField: 5.3.2
-      - <FullVersion>k__BackingField: 5.3.1
-      - <FullVersion>k__BackingField: 5.3.0
-      - <FullVersion>k__BackingField: 5.2.1
-      - <FullVersion>k__BackingField: 5.2.0
-      - <FullVersion>k__BackingField: 5.1.0
-      - <FullVersion>k__BackingField: 5.0.0
-      <Authors>k__BackingField:
-      - domaindrivendev
-      <Description>k__BackingField: Swagger Generator opt-in component to support
-        Newtonsoft.Json serializer behaviors
-      <TotalDownloads>k__BackingField: 87047925
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Swashbuckle.AspNetCore.Newtonsoft/6.6.1/license
-      <ProjectUrl>k__BackingField: https://github.com/domaindrivendev/Swashbuckle.AspNetCore
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Swashbuckle.AspNetCore.Newtonsoft
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Newtonsoft.Json.Schema
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 3.0.16
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/newtonsoft.json.schema/3.0.16/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 3.0.16
-      - <FullVersion>k__BackingField: 3.0.15
-      - <FullVersion>k__BackingField: 3.0.14
-      - <FullVersion>k__BackingField: 3.0.13
-      - <FullVersion>k__BackingField: 3.0.12
-      - <FullVersion>k__BackingField: 3.0.11
-      - <FullVersion>k__BackingField: 3.0.10
-      - <FullVersion>k__BackingField: 3.0.9
-      - <FullVersion>k__BackingField: 3.0.8
-      - <FullVersion>k__BackingField: 3.0.7
-      - <FullVersion>k__BackingField: 3.0.6
-      - <FullVersion>k__BackingField: 3.0.5
-      - <FullVersion>k__BackingField: 3.0.4
-      - <FullVersion>k__BackingField: 3.0.3
-      - <FullVersion>k__BackingField: 3.0.2
-      - <FullVersion>k__BackingField: 3.0.1
-      - <FullVersion>k__BackingField: 2.0.13
-      - <FullVersion>k__BackingField: 2.0.12
-      - <FullVersion>k__BackingField: 2.0.11
-      - <FullVersion>k__BackingField: 2.0.10
-      - <FullVersion>k__BackingField: 2.0.9
-      - <FullVersion>k__BackingField: 2.0.8
-      - <FullVersion>k__BackingField: 2.0.7
-      - <FullVersion>k__BackingField: 2.0.6
-      - <FullVersion>k__BackingField: 2.0.5
-      - <FullVersion>k__BackingField: 2.0.4
-      - <FullVersion>k__BackingField: 2.0.3
-      - <FullVersion>k__BackingField: 2.0.2
-      - <FullVersion>k__BackingField: 2.0.1
-      - <FullVersion>k__BackingField: 1.0.11
-      - <FullVersion>k__BackingField: 1.0.10
-      - <FullVersion>k__BackingField: 1.0.9
-      - <FullVersion>k__BackingField: 1.0.8
-      - <FullVersion>k__BackingField: 1.0.7
-      - <FullVersion>k__BackingField: 1.0.6
-      - <FullVersion>k__BackingField: 1.0.5
-      - <FullVersion>k__BackingField: 1.0.4
-      - <FullVersion>k__BackingField: 1.0.3
-      - <FullVersion>k__BackingField: 1.0.2
-      - <FullVersion>k__BackingField: 1.0.1
-      <Authors>k__BackingField:
-      - Newtonsoft
-      <Description>k__BackingField: Json.NET Schema is a complete and easy-to-use
-        JSON Schema framework for .NET
-      <TotalDownloads>k__BackingField: 48848969
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Newtonsoft.Json.Schema/3.0.16/license
-      <ProjectUrl>k__BackingField: https://www.newtonsoft.com/jsonschema
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Json.NET Schema
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Refit.Newtonsoft.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 7.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/refit.newtonsoft.json/7.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.3.2
-      - <FullVersion>k__BackingField: 6.2.16
-      - <FullVersion>k__BackingField: 6.1.15
-      - <FullVersion>k__BackingField: 6.0.94
-      - <FullVersion>k__BackingField: 6.0.38
-      - <FullVersion>k__BackingField: 6.0.24
-      - <FullVersion>k__BackingField: 6.0.21
-      - <FullVersion>k__BackingField: 6.0.15
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.1
-      <Authors>k__BackingField:
-      - .NET Foundation and Contributors
-      <Description>k__BackingField: Refit Serializers for Newtonsoft.Json
-      <TotalDownloads>k__BackingField: 13885124
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Refit.Newtonsoft.Json/7.0.0/license
-      <ProjectUrl>k__BackingField: https://github.com/reactiveui/refit
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Refit.Newtonsoft.Json
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Microsoft.Azure.Core.NewtonsoftJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 2.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.azure.core.newtonsoftjson/2.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 2.0.0
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: This library contains converters dependent on
-        the Newtonsoft.Json package for use with Azure.Core.
-      <TotalDownloads>k__BackingField: 7545068
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.Azure.Core.NewtonsoftJson/2.0.0/license
-      <ProjectUrl>k__BackingField: https://github.com/Azure/azure-sdk-for-net/blob/Microsoft.Azure.Core.NewtonsoftJson_2.0.0/sdk/core/Microsoft.Azure.Core.NewtonsoftJson/README.md
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Microsoft.Azure.Core.NewtonsoftJson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: MassTransit.Newtonsoft
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.2.2
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/masstransit.newtonsoft/8.2.2/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.2.2
-      - <FullVersion>k__BackingField: 8.2.1
-      - <FullVersion>k__BackingField: 8.2.0
-      - <FullVersion>k__BackingField: 8.1.3
-      - <FullVersion>k__BackingField: 8.1.2
-      - <FullVersion>k__BackingField: 8.1.1
-      - <FullVersion>k__BackingField: 8.1.0
-      - <FullVersion>k__BackingField: 8.0.16
-      - <FullVersion>k__BackingField: 8.0.15
-      - <FullVersion>k__BackingField: 8.0.14
-      - <FullVersion>k__BackingField: 8.0.13
-      - <FullVersion>k__BackingField: 8.0.12
-      - <FullVersion>k__BackingField: 8.0.11
-      - <FullVersion>k__BackingField: 8.0.10
-      - <FullVersion>k__BackingField: 8.0.9
-      - <FullVersion>k__BackingField: 8.0.8
-      - <FullVersion>k__BackingField: 8.0.7
-      - <FullVersion>k__BackingField: 8.0.6
-      - <FullVersion>k__BackingField: 8.0.5
-      - <FullVersion>k__BackingField: 8.0.4
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 8.0.0
-      <Authors>k__BackingField:
-      - Chris Patterson
-      <Description>k__BackingField: MassTransit Newtonsoft JSON/BSON support; MassTransit
-        provides a developer-focused, modern platform for creating distributed applications
-        without complexity.
-      <TotalDownloads>k__BackingField: 5979268
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/MassTransit.Newtonsoft/8.2.2/license
-      <ProjectUrl>k__BackingField: https://masstransit.io/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: MassTransit.Newtonsoft
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: GraphQL.NewtonsoftJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 7.8.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/graphql.newtonsoftjson/7.8.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 7.8.0
-      - <FullVersion>k__BackingField: 7.7.2
-      - <FullVersion>k__BackingField: 7.7.1
-      - <FullVersion>k__BackingField: 7.7.0
-      - <FullVersion>k__BackingField: 7.6.1
-      - <FullVersion>k__BackingField: 7.6.0
-      - <FullVersion>k__BackingField: 7.5.0
-      - <FullVersion>k__BackingField: 7.4.1
-      - <FullVersion>k__BackingField: 7.4.0
-      - <FullVersion>k__BackingField: 7.3.1
-      - <FullVersion>k__BackingField: 7.3.0
-      - <FullVersion>k__BackingField: 7.2.2
-      - <FullVersion>k__BackingField: 7.2.1
-      - <FullVersion>k__BackingField: 7.2.0
-      - <FullVersion>k__BackingField: 7.1.1
-      - <FullVersion>k__BackingField: 7.1.0
-      - <FullVersion>k__BackingField: 7.0.2
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 5.4.0
-      - <FullVersion>k__BackingField: 5.3.3
-      - <FullVersion>k__BackingField: 5.3.2
-      - <FullVersion>k__BackingField: 5.3.1
-      - <FullVersion>k__BackingField: 5.3.0
-      - <FullVersion>k__BackingField: 5.2.0
-      - <FullVersion>k__BackingField: 5.1.1
-      - <FullVersion>k__BackingField: 5.1.0
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.8.0
-      - <FullVersion>k__BackingField: 4.7.1
-      - <FullVersion>k__BackingField: 4.7.0
-      - <FullVersion>k__BackingField: 4.6.1
-      - <FullVersion>k__BackingField: 4.6.0
-      - <FullVersion>k__BackingField: 4.5.0
-      - <FullVersion>k__BackingField: 4.4.0
-      - <FullVersion>k__BackingField: 4.3.0
-      - <FullVersion>k__BackingField: 4.2.0
-      - <FullVersion>k__BackingField: 4.1.0
-      - <FullVersion>k__BackingField: 4.0.2
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 4.0.0
-      - <FullVersion>k__BackingField: 3.3.2
-      - <FullVersion>k__BackingField: 3.3.1
-      - <FullVersion>k__BackingField: 3.3.0
-      - <FullVersion>k__BackingField: 3.2.0
-      - <FullVersion>k__BackingField: 3.1.6
-      - <FullVersion>k__BackingField: 3.1.5
-      - <FullVersion>k__BackingField: 3.1.4
-      - <FullVersion>k__BackingField: 3.1.3
-      - <FullVersion>k__BackingField: 3.1.2
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.0.2026
-      - <FullVersion>k__BackingField: 3.0.0
-      <Authors>k__BackingField:
-      - GraphQL.NewtonsoftJson
-      <Description>k__BackingField: JSON.NET serializer for GraphQL.NET
-      <TotalDownloads>k__BackingField: 12599377
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/GraphQL.NewtonsoftJson/7.8.0/license
-      <ProjectUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: GraphQL.NewtonsoftJson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: GraphQL.Client.Serializer.Newtonsoft
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 6.0.5
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/graphql.client.serializer.newtonsoft/6.0.5/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.1.1
-      - <FullVersion>k__BackingField: 5.1.0
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.0.2
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 4.0.0
-      - <FullVersion>k__BackingField: 3.2.4
-      - <FullVersion>k__BackingField: 3.2.3
-      - <FullVersion>k__BackingField: 3.2.2
-      - <FullVersion>k__BackingField: 3.2.1
-      - <FullVersion>k__BackingField: 3.2.0
-      - <FullVersion>k__BackingField: 3.1.9
-      - <FullVersion>k__BackingField: 3.1.8
-      - <FullVersion>k__BackingField: 3.1.7
-      - <FullVersion>k__BackingField: 3.1.6
-      - <FullVersion>k__BackingField: 3.1.5
-      - <FullVersion>k__BackingField: 3.1.4
-      - <FullVersion>k__BackingField: 3.1.3
-      - <FullVersion>k__BackingField: 3.1.2
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.3
-      - <FullVersion>k__BackingField: 3.0.2
-      - <FullVersion>k__BackingField: 3.0.1
-      - <FullVersion>k__BackingField: 3.0.0
-      - <FullVersion>k__BackingField: 2.1.2
-      - <FullVersion>k__BackingField: 2.1.0
-      <Authors>k__BackingField:
-      - Deinok,Alexander Rose,graphql-dotnet
-      <Description>k__BackingField: A serializer implementation for GraphQL.Client
-        using Newtonsoft.Json as underlying JSON library
-      <TotalDownloads>k__BackingField: 14720256
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/GraphQL.Client.Serializer.Newtonsoft/6.0.5/license
-      <ProjectUrl>k__BackingField: https://github.com/graphql-dotnet/graphql-client
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: GraphQL.Client.Serializer.Newtonsoft
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: RestSharp.Serializers.NewtonsoftJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 110.2.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/restsharp.serializers.newtonsoftjson/110.2.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 110.2.0
-      - <FullVersion>k__BackingField: 110.1.0
-      - <FullVersion>k__BackingField: 110.0.0
-      - <FullVersion>k__BackingField: 109.0.1
-      - <FullVersion>k__BackingField: 109.0.0
-      - <FullVersion>k__BackingField: 108.0.3
-      - <FullVersion>k__BackingField: 108.0.2
-      - <FullVersion>k__BackingField: 108.0.1
-      - <FullVersion>k__BackingField: 108.0.0
-      - <FullVersion>k__BackingField: 107.3.0
-      - <FullVersion>k__BackingField: 107.2.1
-      - <FullVersion>k__BackingField: 107.2.0
-      - <FullVersion>k__BackingField: 107.1.2
-      - <FullVersion>k__BackingField: 107.1.1
-      - <FullVersion>k__BackingField: 107.1.0
-      - <FullVersion>k__BackingField: 107.0.3
-      - <FullVersion>k__BackingField: 107.0.2
-      - <FullVersion>k__BackingField: 107.0.1
-      - <FullVersion>k__BackingField: 106.15.0
-      - <FullVersion>k__BackingField: 106.13.0
-      - <FullVersion>k__BackingField: 106.12.0
-      - <FullVersion>k__BackingField: 106.11.7
-      - <FullVersion>k__BackingField: 106.11.6
-      - <FullVersion>k__BackingField: 106.11.5
-      - <FullVersion>k__BackingField: 106.11.4
-      - <FullVersion>k__BackingField: 106.11.3
-      - <FullVersion>k__BackingField: 106.11.2
-      - <FullVersion>k__BackingField: 106.11.1
-      - <FullVersion>k__BackingField: 106.10.1
-      - <FullVersion>k__BackingField: 106.10.0
-      <Authors>k__BackingField:
-      - .NET Foundation and Contributors
-      <Description>k__BackingField: Simple REST and HTTP API Client
-      <TotalDownloads>k__BackingField: 14596856
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/RestSharp.Serializers.NewtonsoftJson/110.2.0/license
-      <ProjectUrl>k__BackingField: https://restsharp.dev/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: RestSharp.Serializers.NewtonsoftJson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: RestSharp.Newtonsoft.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 1.5.1
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/restsharp.newtonsoft.json/1.5.1/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 1.5.1
-      - <FullVersion>k__BackingField: 1.5.0
-      - <FullVersion>k__BackingField: 1.4.0
-      - <FullVersion>k__BackingField: 1.3.0
-      - <FullVersion>k__BackingField: 1.2.0
-      - <FullVersion>k__BackingField: 1.1.0
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - Adam Fisher
-      <Description>k__BackingField: Restores Newtonsoft.JSON as the default serializer
-        for RestSharp.
-      <TotalDownloads>k__BackingField: 4471674
-      <LicenseUrl>k__BackingField: https://github.com/adamfisher/RestSharp.Serializers.Newtonsoft.Json/blob/master/LICENSE
-      <ProjectUrl>k__BackingField: https://github.com/adamfisher/RestSharp.Serializers.Newtonsoft.Json
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: RestSharp.Serializers.Newtonsoft.Json
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: NServiceBus.Newtonsoft.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 4.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/nservicebus.newtonsoft.json/4.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 4.0.0
-      - <FullVersion>k__BackingField: 3.0.0
-      - <FullVersion>k__BackingField: 2.4.0
-      - <FullVersion>k__BackingField: 2.3.0
-      - <FullVersion>k__BackingField: 2.2.0
-      - <FullVersion>k__BackingField: 2.1.0
-      - <FullVersion>k__BackingField: 2.0.0
-      - <FullVersion>k__BackingField: 1.2.0
-      - <FullVersion>k__BackingField: 1.1.0
-      - <FullVersion>k__BackingField: 1.0.1
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - Particular Software
-      <Description>k__BackingField: Json.NET serializer for NServiceBus
-      <TotalDownloads>k__BackingField: 9931392
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/NServiceBus.Newtonsoft.Json/4.0.0/license
-      <ProjectUrl>k__BackingField: https://docs.particular.net/nuget/NServiceBus.Newtonsoft.Json
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: NServiceBus.Newtonsoft.Json
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: StackExchange.Redis.Extensions.Newtonsoft
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 10.2.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 10.2.0
-      - <FullVersion>k__BackingField: 10.1.0
-      - <FullVersion>k__BackingField: 10.0.2
-      - <FullVersion>k__BackingField: 10.0.1
-      - <FullVersion>k__BackingField: 10.0.0
-      - <FullVersion>k__BackingField: 9.1.0
-      - <FullVersion>k__BackingField: 9.0.0
-      - <FullVersion>k__BackingField: 8.0.5
-      - <FullVersion>k__BackingField: 8.0.4
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.2.1
-      - <FullVersion>k__BackingField: 7.1.1
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.4.5
-      - <FullVersion>k__BackingField: 6.4.3
-      - <FullVersion>k__BackingField: 6.4.2
-      - <FullVersion>k__BackingField: 6.4.1
-      - <FullVersion>k__BackingField: 6.4.0
-      - <FullVersion>k__BackingField: 6.3.6
-      - <FullVersion>k__BackingField: 6.3.5
-      - <FullVersion>k__BackingField: 6.3.4
-      - <FullVersion>k__BackingField: 6.3.3
-      - <FullVersion>k__BackingField: 6.3.2
-      - <FullVersion>k__BackingField: 6.3.1
-      - <FullVersion>k__BackingField: 6.3.0
-      - <FullVersion>k__BackingField: 6.2.2
-      - <FullVersion>k__BackingField: 6.2.1
-      - <FullVersion>k__BackingField: 6.2.0
-      - <FullVersion>k__BackingField: 6.1.7
-      - <FullVersion>k__BackingField: 6.1.6
-      - <FullVersion>k__BackingField: 6.1.5
-      - <FullVersion>k__BackingField: 6.1.1
-      - <FullVersion>k__BackingField: 6.1.0
-      - <FullVersion>k__BackingField: 6.0.11
-      - <FullVersion>k__BackingField: 5.5.0
-      - <FullVersion>k__BackingField: 5.4.0
-      - <FullVersion>k__BackingField: 5.3.0
-      - <FullVersion>k__BackingField: 5.2.0
-      - <FullVersion>k__BackingField: 5.1.2
-      - <FullVersion>k__BackingField: 5.1.1
-      - <FullVersion>k__BackingField: 5.1.0
-      - <FullVersion>k__BackingField: 5.0.3
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.0.5
-      - <FullVersion>k__BackingField: 4.0.4
-      - <FullVersion>k__BackingField: 4.0.3
-      - <FullVersion>k__BackingField: 4.0.2
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 4.0.0
-      - <FullVersion>k__BackingField: 3.5.0
-      - <FullVersion>k__BackingField: 3.4.0
-      - <FullVersion>k__BackingField: 3.3.0
-      - <FullVersion>k__BackingField: 3.2.0
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.1
-      - <FullVersion>k__BackingField: 3.0.0
-      - <FullVersion>k__BackingField: 2.3.0
-      - <FullVersion>k__BackingField: 2.2.0
-      - <FullVersion>k__BackingField: 2.1.0
-      - <FullVersion>k__BackingField: 2.0.0
-      - <FullVersion>k__BackingField: 1.4.0
-      - <FullVersion>k__BackingField: 1.3.6
-      - <FullVersion>k__BackingField: 1.3.5
-      - <FullVersion>k__BackingField: 1.3.3
-      - <FullVersion>k__BackingField: 1.3.2
-      - <FullVersion>k__BackingField: 1.3.1
-      - <FullVersion>k__BackingField: 1.3.0
-      - <FullVersion>k__BackingField: 1.2.0
-      - <FullVersion>k__BackingField: 1.1.11
-      - <FullVersion>k__BackingField: 1.1.10
-      - <FullVersion>k__BackingField: 1.1.9
-      - <FullVersion>k__BackingField: 1.1.8
-      - <FullVersion>k__BackingField: 1.1.7
-      - <FullVersion>k__BackingField: 1.1.6
-      - <FullVersion>k__BackingField: 1.1.5
-      - <FullVersion>k__BackingField: 1.1.4
-      - <FullVersion>k__BackingField: 1.1.2
-      - <FullVersion>k__BackingField: 1.1.1
-      - <FullVersion>k__BackingField: 1.1.0
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - Ugo Lattanzi
-      <Description>k__BackingField: "StackExchange.Redis.Extensions is a library
-        that extends StackExchange.Redis allowing you a set of functionality needed
-        by common applications.\n\n        To store complex data It requires one
-        of the following implementations:\n\n        - StackExchange.Redis.Extensions.Newtonsoft\n       
-        - StackExchange.Redis.Extensions.System.Text.Json\n        - StackExchange.Redis.Extensions.Jil\n       
-        - StackExchange.Redis.Extensions.MemoryPack\n        - StackExchange.Redis.Extensions.MsgPack\n       
-        - StackExchange.Redis.Extensions.Protobuf\n        - StackExchange.Redis.Extensions.ServiceStack\n       
-        - StackExchange.Redis.Extensions.Utf8Json"
-      <TotalDownloads>k__BackingField: 11680908
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/StackExchange.Redis.Extensions.Newtonsoft/10.2.0/license
-      <ProjectUrl>k__BackingField: https://github.com/imperugo/StackExchange.Redis.Extensions
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Use the Newtonsoft Json.Net serialization with StackExchange.Redis.
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.0.4
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.signalr.protocols.newtonsoftjson/8.0.4/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.0.4
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.0.18
-      - <FullVersion>k__BackingField: 7.0.17
-      - <FullVersion>k__BackingField: 7.0.16
-      - <FullVersion>k__BackingField: 7.0.15
-      - <FullVersion>k__BackingField: 7.0.14
-      - <FullVersion>k__BackingField: 7.0.13
-      - <FullVersion>k__BackingField: 7.0.12
-      - <FullVersion>k__BackingField: 7.0.11
-      - <FullVersion>k__BackingField: 7.0.10
-      - <FullVersion>k__BackingField: 7.0.9
-      - <FullVersion>k__BackingField: 7.0.8
-      - <FullVersion>k__BackingField: 7.0.7
-      - <FullVersion>k__BackingField: 7.0.5
-      - <FullVersion>k__BackingField: 7.0.4
-      - <FullVersion>k__BackingField: 7.0.3
-      - <FullVersion>k__BackingField: 7.0.2
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.0.29
-      - <FullVersion>k__BackingField: 6.0.28
-      - <FullVersion>k__BackingField: 6.0.27
-      - <FullVersion>k__BackingField: 6.0.26
-      - <FullVersion>k__BackingField: 6.0.25
-      - <FullVersion>k__BackingField: 6.0.24
-      - <FullVersion>k__BackingField: 6.0.23
-      - <FullVersion>k__BackingField: 6.0.22
-      - <FullVersion>k__BackingField: 6.0.21
-      - <FullVersion>k__BackingField: 6.0.20
-      - <FullVersion>k__BackingField: 6.0.19
-      - <FullVersion>k__BackingField: 6.0.18
-      - <FullVersion>k__BackingField: 6.0.16
-      - <FullVersion>k__BackingField: 6.0.15
-      - <FullVersion>k__BackingField: 6.0.14
-      - <FullVersion>k__BackingField: 6.0.13
-      - <FullVersion>k__BackingField: 6.0.12
-      - <FullVersion>k__BackingField: 6.0.11
-      - <FullVersion>k__BackingField: 6.0.10
-      - <FullVersion>k__BackingField: 6.0.9
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.17
-      - <FullVersion>k__BackingField: 5.0.16
-      - <FullVersion>k__BackingField: 5.0.15
-      - <FullVersion>k__BackingField: 5.0.14
-      - <FullVersion>k__BackingField: 5.0.13
-      - <FullVersion>k__BackingField: 5.0.12
-      - <FullVersion>k__BackingField: 5.0.11
-      - <FullVersion>k__BackingField: 5.0.10
-      - <FullVersion>k__BackingField: 5.0.9
-      - <FullVersion>k__BackingField: 5.0.8
-      - <FullVersion>k__BackingField: 5.0.7
-      - <FullVersion>k__BackingField: 5.0.6
-      - <FullVersion>k__BackingField: 5.0.5
-      - <FullVersion>k__BackingField: 5.0.4
-      - <FullVersion>k__BackingField: 5.0.3
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 3.1.32
-      - <FullVersion>k__BackingField: 3.1.31
-      - <FullVersion>k__BackingField: 3.1.30
-      - <FullVersion>k__BackingField: 3.1.29
-      - <FullVersion>k__BackingField: 3.1.28
-      - <FullVersion>k__BackingField: 3.1.27
-      - <FullVersion>k__BackingField: 3.1.26
-      - <FullVersion>k__BackingField: 3.1.25
-      - <FullVersion>k__BackingField: 3.1.24
-      - <FullVersion>k__BackingField: 3.1.23
-      - <FullVersion>k__BackingField: 3.1.22
-      - <FullVersion>k__BackingField: 3.1.21
-      - <FullVersion>k__BackingField: 3.1.20
-      - <FullVersion>k__BackingField: 3.1.19
-      - <FullVersion>k__BackingField: 3.1.18
-      - <FullVersion>k__BackingField: 3.1.17
-      - <FullVersion>k__BackingField: 3.1.16
-      - <FullVersion>k__BackingField: 3.1.15
-      - <FullVersion>k__BackingField: 3.1.14
-      - <FullVersion>k__BackingField: 3.1.13
-      - <FullVersion>k__BackingField: 3.1.12
-      - <FullVersion>k__BackingField: 3.1.11
-      - <FullVersion>k__BackingField: 3.1.10
-      - <FullVersion>k__BackingField: 3.1.9
-      - <FullVersion>k__BackingField: 3.1.8
-      - <FullVersion>k__BackingField: 3.1.7
-      - <FullVersion>k__BackingField: 3.1.6
-      - <FullVersion>k__BackingField: 3.1.5
-      - <FullVersion>k__BackingField: 3.1.4
-      - <FullVersion>k__BackingField: 3.1.3
-      - <FullVersion>k__BackingField: 3.1.2
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.3
-      - <FullVersion>k__BackingField: 3.0.2
-      - <FullVersion>k__BackingField: 3.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'Implements the SignalR Hub Protocol using Newtonsoft.Json.
-
-
-        This
-        package was built from the source code at https://github.com/dotnet/aspnetcore/tree/8486d31e24f30e3fa1809a95699a0adc16f448d7'
-      <TotalDownloads>k__BackingField: 18196390
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson/8.0.4/license
-      <ProjectUrl>k__BackingField: https://asp.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson
-      <DownloadUrl>k__BackingField: 
-  serializableToInstallPackages: []
-  serializableUpdatePackages:
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Microsoft.Bcl.AsyncInterfaces
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/microsoft.bcl.asyncinterfaces/8.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 1.1.1
-      - <FullVersion>k__BackingField: 1.1.0
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'Provides the IAsyncEnumerable<T> and IAsyncDisposable
-        interfaces and helper types for .NET Standard 2.0. This package is not required
-        starting with .NET Standard 2.1 and .NET Core 3.0.
-
-
-        Commonly Used
-        Types:
-
-        System.IAsyncDisposable
-
-        System.Collections.Generic.IAsyncEnumerable
-
-        System.Collections.Generic.IAsyncEnumerator'
-      <TotalDownloads>k__BackingField: 1613026625
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Microsoft.Bcl.AsyncInterfaces/8.0.0/license
-      <ProjectUrl>k__BackingField: https://dot.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Microsoft.Bcl.AsyncInterfaces
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: Newtonsoft.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 13.0.3
-      <IsManuallyInstalled>k__BackingField: 1
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/newtonsoft.json/13.0.3/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 13.0.3
-      - <FullVersion>k__BackingField: 13.0.2
-      - <FullVersion>k__BackingField: 13.0.1
-      - <FullVersion>k__BackingField: 12.0.3
-      - <FullVersion>k__BackingField: 12.0.2
-      - <FullVersion>k__BackingField: 12.0.1
-      - <FullVersion>k__BackingField: 11.0.2
-      - <FullVersion>k__BackingField: 11.0.1
-      - <FullVersion>k__BackingField: 10.0.3
-      - <FullVersion>k__BackingField: 10.0.2
-      - <FullVersion>k__BackingField: 10.0.1
-      - <FullVersion>k__BackingField: 9.0.1
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 5.0.8
-      - <FullVersion>k__BackingField: 5.0.7
-      - <FullVersion>k__BackingField: 5.0.6
-      - <FullVersion>k__BackingField: 5.0.5
-      - <FullVersion>k__BackingField: 5.0.4
-      - <FullVersion>k__BackingField: 5.0.3
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 4.5.11
-      - <FullVersion>k__BackingField: 4.5.10
-      - <FullVersion>k__BackingField: 4.5.9
-      - <FullVersion>k__BackingField: 4.5.8
-      - <FullVersion>k__BackingField: 4.5.7
-      - <FullVersion>k__BackingField: 4.5.6
-      - <FullVersion>k__BackingField: 4.5.5
-      - <FullVersion>k__BackingField: 4.5.4
-      - <FullVersion>k__BackingField: 4.5.3
-      - <FullVersion>k__BackingField: 4.5.2
-      - <FullVersion>k__BackingField: 4.5.1
-      - <FullVersion>k__BackingField: 4.0.8
-      - <FullVersion>k__BackingField: 4.0.7
-      - <FullVersion>k__BackingField: 4.0.6
-      - <FullVersion>k__BackingField: 4.0.5
-      - <FullVersion>k__BackingField: 4.0.4
-      - <FullVersion>k__BackingField: 4.0.3
-      - <FullVersion>k__BackingField: 4.0.2
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 3.5.8
-      <Authors>k__BackingField:
-      - James Newton-King
-      <Description>k__BackingField: Json.NET is a popular high-performance JSON framework
-        for .NET
-      <TotalDownloads>k__BackingField: 4696278515
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/Newtonsoft.Json/13.0.3/license
-      <ProjectUrl>k__BackingField: https://www.newtonsoft.com/json
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: Json.NET
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: SocketIO.Core
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 3.1.1
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 3.1.1
-      <Authors>k__BackingField:
-      - doghappy
-      <Description>k__BackingField: Package Description
-      <TotalDownloads>k__BackingField: 60933
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/SocketIO.Core/3.1.1/license
-      <ProjectUrl>k__BackingField: https://github.com/doghappy/socket.io-client-csharp
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: SocketIO.Core
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: SocketIO.Serializer.Core
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 3.1.1
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - doghappy
-      <Description>k__BackingField: Package Description
-      <TotalDownloads>k__BackingField: 52422
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/SocketIO.Serializer.Core/3.1.1/license
-      <ProjectUrl>k__BackingField: https://github.com/doghappy/socket.io-client-csharp
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: SocketIO.Serializer.Core
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: SocketIO.Serializer.SystemTextJson
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 3.1.1
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      <Authors>k__BackingField:
-      - SocketIO.Serializer.SystemTextJson
-      <Description>k__BackingField: Package Description
-      <TotalDownloads>k__BackingField: 52187
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: SocketIO.Serializer.SystemTextJson
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: SocketIOClient
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 3.1.1
-      <IsManuallyInstalled>k__BackingField: 1
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: 
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 3.1.1
-      - <FullVersion>k__BackingField: 3.1.0
-      - <FullVersion>k__BackingField: 3.0.8
-      - <FullVersion>k__BackingField: 3.0.7
-      - <FullVersion>k__BackingField: 3.0.6
-      - <FullVersion>k__BackingField: 3.0.5
-      - <FullVersion>k__BackingField: 3.0.4
-      - <FullVersion>k__BackingField: 3.0.3
-      - <FullVersion>k__BackingField: 3.0.2
-      - <FullVersion>k__BackingField: 3.0.1
-      - <FullVersion>k__BackingField: 3.0.0
-      - <FullVersion>k__BackingField: 2.3.1
-      - <FullVersion>k__BackingField: 2.3.0
-      - <FullVersion>k__BackingField: 2.2.4
-      - <FullVersion>k__BackingField: 2.2.3
-      - <FullVersion>k__BackingField: 2.2.2
-      - <FullVersion>k__BackingField: 2.2.1
-      - <FullVersion>k__BackingField: 2.2.0
-      - <FullVersion>k__BackingField: 2.1.7
-      - <FullVersion>k__BackingField: 2.1.6
-      - <FullVersion>k__BackingField: 2.1.5
-      - <FullVersion>k__BackingField: 2.1.4
-      - <FullVersion>k__BackingField: 2.1.3
-      - <FullVersion>k__BackingField: 2.1.2
-      - <FullVersion>k__BackingField: 2.1.1
-      - <FullVersion>k__BackingField: 2.1.0
-      - <FullVersion>k__BackingField: 2.0.2.9
-      - <FullVersion>k__BackingField: 2.0.2.8
-      - <FullVersion>k__BackingField: 2.0.2.7
-      - <FullVersion>k__BackingField: 2.0.2.6
-      - <FullVersion>k__BackingField: 2.0.2.5
-      - <FullVersion>k__BackingField: 2.0.2.4
-      - <FullVersion>k__BackingField: 2.0.2.3
-      - <FullVersion>k__BackingField: 2.0.2.2
-      - <FullVersion>k__BackingField: 2.0.2.1
-      - <FullVersion>k__BackingField: 2.0.2
-      - <FullVersion>k__BackingField: 2.0.1
-      - <FullVersion>k__BackingField: 2.0.0
-      - <FullVersion>k__BackingField: 1.0.3.13
-      - <FullVersion>k__BackingField: 1.0.3.12
-      - <FullVersion>k__BackingField: 1.0.3.11
-      - <FullVersion>k__BackingField: 1.0.3.10
-      - <FullVersion>k__BackingField: 1.0.3.9
-      - <FullVersion>k__BackingField: 1.0.3.8
-      - <FullVersion>k__BackingField: 1.0.3.7
-      - <FullVersion>k__BackingField: 1.0.3.6
-      - <FullVersion>k__BackingField: 1.0.3.5
-      - <FullVersion>k__BackingField: 1.0.3.4
-      - <FullVersion>k__BackingField: 1.0.3.3
-      - <FullVersion>k__BackingField: 1.0.3.2
-      - <FullVersion>k__BackingField: 1.0.3.1
-      - <FullVersion>k__BackingField: 1.0.3
-      - <FullVersion>k__BackingField: 1.0.2.7
-      - <FullVersion>k__BackingField: 1.0.2.6
-      - <FullVersion>k__BackingField: 1.0.2.5
-      - <FullVersion>k__BackingField: 1.0.2.4
-      - <FullVersion>k__BackingField: 1.0.2.3
-      - <FullVersion>k__BackingField: 1.0.2.2
-      - <FullVersion>k__BackingField: 1.0.2.1
-      - <FullVersion>k__BackingField: 1.0.2
-      - <FullVersion>k__BackingField: 1.0.1
-      - <FullVersion>k__BackingField: 1.0.0
-      <Authors>k__BackingField:
-      - doghappy
-      <Description>k__BackingField: socket.io-client implemention for .NET
-      <TotalDownloads>k__BackingField: 975926
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/SocketIOClient/3.1.1/license
-      <ProjectUrl>k__BackingField: https://github.com/doghappy/socket.io-client-csharp
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: SocketIOClient
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: System.Runtime.CompilerServices.Unsafe
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 6.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.7.1
-      - <FullVersion>k__BackingField: 4.7.0
-      - <FullVersion>k__BackingField: 4.6.0
-      - <FullVersion>k__BackingField: 4.5.3
-      - <FullVersion>k__BackingField: 4.5.2
-      - <FullVersion>k__BackingField: 4.5.1
-      - <FullVersion>k__BackingField: 4.5.0
-      - <FullVersion>k__BackingField: 4.4.0
-      - <FullVersion>k__BackingField: 4.3.0
-      - <FullVersion>k__BackingField: 4.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'Provides the System.Runtime.CompilerServices.Unsafe
-        class, which provides generic, low-level functionality for manipulating pointers.
-
-
-        Commonly
-        Used Types:
-
-        System.Runtime.CompilerServices.Unsafe'
-      <TotalDownloads>k__BackingField: 4585776073
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.Runtime.CompilerServices.Unsafe/6.0.0/license
-      <ProjectUrl>k__BackingField: https://dot.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: System.Runtime.CompilerServices.Unsafe
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: System.Text.Encodings.Web
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.0.0
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/system.text.encodings.web/8.0.0/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.7.2
-      - <FullVersion>k__BackingField: 4.7.1
-      - <FullVersion>k__BackingField: 4.7.0
-      - <FullVersion>k__BackingField: 4.6.0
-      - <FullVersion>k__BackingField: 4.5.1
-      - <FullVersion>k__BackingField: 4.5.0
-      - <FullVersion>k__BackingField: 4.4.0
-      - <FullVersion>k__BackingField: 4.3.1
-      - <FullVersion>k__BackingField: 4.3.0
-      - <FullVersion>k__BackingField: 4.0.1
-      - <FullVersion>k__BackingField: 4.0.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'Provides types for encoding and escaping strings
-        for use in JavaScript, HyperText Markup Language (HTML), and uniform resource
-        locators (URL).
-
-
-        Commonly Used Types:
-
-        System.Text.Encodings.Web.HtmlEncoder
-
-        System.Text.Encodings.Web.UrlEncoder
-
-        System.Text.Encodings.Web.JavaScriptEncoder'
-      <TotalDownloads>k__BackingField: 2626468398
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.Text.Encodings.Web/8.0.0/license
-      <ProjectUrl>k__BackingField: https://dot.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: System.Text.Encodings.Web
-      <DownloadUrl>k__BackingField: 
-  - packageLocal:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSource:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageType: 2
-    packageV2:
-      <Id>k__BackingField: 
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 
-      <IsManuallyInstalled>k__BackingField: 0
-      icon: {fileID: 0}
-      <DownloadUrl>k__BackingField: 
-      <IconUrl>k__BackingField: 
-      <RepositoryBranch>k__BackingField: 
-      <Dependencies>k__BackingField: []
-      <Authors>k__BackingField: []
-      <Description>k__BackingField: 
-      <TotalDownloads>k__BackingField: 0
-      <LicenseUrl>k__BackingField: 
-      <ProjectUrl>k__BackingField: 
-      <ReleaseNotes>k__BackingField: 
-      <RepositoryCommit>k__BackingField: 
-      <RepositoryType>k__BackingField: 0
-      <RepositoryUrl>k__BackingField: 
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: 
-      packageSourceV2:
-        <Name>k__BackingField: 
-        <SavedPath>k__BackingField: 
-        <SavedProtocolVersion>k__BackingField: 
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 0
-      versions: []
-    packageV3:
-      <Id>k__BackingField: System.Text.Json
-      <PackageVersion>k__BackingField:
-        <FullVersion>k__BackingField: 8.0.3
-      <IsManuallyInstalled>k__BackingField: 0
-      dependencies: []
-      dependenciesFetched: 0
-      icon: {fileID: 0}
-      iconUrl: https://api.nuget.org/v3-flatcontainer/system.text.json/8.0.3/icon
-      packageSource:
-        <Name>k__BackingField: nuget.org
-        <SavedPath>k__BackingField: https://api.nuget.org/v3/index.json
-        <SavedProtocolVersion>k__BackingField: 
-        <UpdateSearchBatchSize>k__BackingField: 20
-        <UserName>k__BackingField: 
-        <SavedPassword>k__BackingField: 
-        <IsEnabled>k__BackingField: 1
-      <Versions>k__BackingField:
-      - <FullVersion>k__BackingField: 8.0.3
-      - <FullVersion>k__BackingField: 8.0.2
-      - <FullVersion>k__BackingField: 8.0.1
-      - <FullVersion>k__BackingField: 8.0.0
-      - <FullVersion>k__BackingField: 7.0.4
-      - <FullVersion>k__BackingField: 7.0.3
-      - <FullVersion>k__BackingField: 7.0.2
-      - <FullVersion>k__BackingField: 7.0.1
-      - <FullVersion>k__BackingField: 7.0.0
-      - <FullVersion>k__BackingField: 6.0.9
-      - <FullVersion>k__BackingField: 6.0.8
-      - <FullVersion>k__BackingField: 6.0.7
-      - <FullVersion>k__BackingField: 6.0.6
-      - <FullVersion>k__BackingField: 6.0.5
-      - <FullVersion>k__BackingField: 6.0.4
-      - <FullVersion>k__BackingField: 6.0.3
-      - <FullVersion>k__BackingField: 6.0.2
-      - <FullVersion>k__BackingField: 6.0.1
-      - <FullVersion>k__BackingField: 6.0.0
-      - <FullVersion>k__BackingField: 5.0.2
-      - <FullVersion>k__BackingField: 5.0.1
-      - <FullVersion>k__BackingField: 5.0.0
-      - <FullVersion>k__BackingField: 4.7.2
-      - <FullVersion>k__BackingField: 4.7.1
-      - <FullVersion>k__BackingField: 4.7.0
-      - <FullVersion>k__BackingField: 4.6.0
-      <Authors>k__BackingField:
-      - Microsoft
-      <Description>k__BackingField: 'Provides high-performance and low-allocating
-        types that serialize objects to JavaScript Object Notation (JSON) text and
-        deserialize JSON text to objects, with UTF-8 support built-in. Also provides
-        types to read and write JSON text encoded as UTF-8, and to create an in-memory
-        document object model (DOM), that is read-only, for random access of the
-        JSON elements within a structured view of the data.
-
-
-        The System.Text.Json
-        library is built-in as part of the shared framework in .NET Runtime. The
-        package can be installed when you need to use it in other target frameworks.'
-      <TotalDownloads>k__BackingField: 2159983551
-      <LicenseUrl>k__BackingField: https://www.nuget.org/packages/System.Text.Json/8.0.3/license
-      <ProjectUrl>k__BackingField: https://dot.net/
-      <Summary>k__BackingField: 
-      <Title>k__BackingField: System.Text.Json
-      <DownloadUrl>k__BackingField: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3338,10 +512,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -2
+    x: 799
     y: 96
-    width: 807
-    height: 406.5
+    width: 544.5
+    height: 499.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3358,7 +532,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1614, y: 771}
+  m_TargetSize: {x: 1089, y: 957}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3373,10 +547,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -403.5
-    m_HBaseRangeMax: 403.5
-    m_VBaseRangeMin: -192.75
-    m_VBaseRangeMax: 192.75
+    m_HBaseRangeMin: -272.25
+    m_HBaseRangeMax: 272.25
+    m_VBaseRangeMin: -239.25
+    m_VBaseRangeMax: 239.25
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3394,23 +568,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 807
-      height: 385.5
+      width: 544.5
+      height: 478.5
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 403.5, y: 192.75}
+    m_Translation: {x: 272.25, y: 239.25}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -403.5
-      y: -192.75
-      width: 807
-      height: 385.5
+      x: -272.25
+      y: -239.25
+      width: 544.5
+      height: 478.5
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1614, y: 813}
+  m_LastWindowPixelSize: {x: 1089, y: 999}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -4398,10 +1572,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 806
+    x: 1344.5
     y: 96
-    width: 436
-    height: 406.5
+    width: 113.5
+    height: 499.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4415,23 +1589,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3ae8ffff
-      m_LastClickedID: -6086
-      m_ExpandedIDs: 6278ffffda7dffff52d5ffff20ebffff3eebffff18fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6cd7ffffb2d7ffff0ad9ffffcadfffff12e0ffff66e1ffff30fbffff40630000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: BET_REGISTER
-        m_OriginalName: BET_REGISTER
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -10926
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 12}
       m_SearchString: 
@@ -4461,10 +1635,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1244
+    x: 1460
     y: 96
-    width: 289
-    height: 406.5
+    width: 155
+    height: 499.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4542,10 +1716,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1535
+    x: 1617
     y: 96
-    width: 190
-    height: 406.5
+    width: 110
+    height: 499.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4566,8 +1740,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -4583,7 +1756,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 1424}
     m_SelectedIDs: f4d00100
     m_LastClickedID: 119028
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000425b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -4611,21 +1784,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000c4590000
+    m_ExpandedIDs: ffffffff00000000425b0000a2630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Plugins
+      m_OriginalName: Plugins
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 25506
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 14}
     m_SearchString: 
@@ -4869,10 +2042,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -2
-    y: 523.5
-    width: 755.5
-    height: 445.5
+    x: 799
+    y: 616.5
+    width: 400.5
+    height: 409.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -4885,7 +2058,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -6086
+  m_LastSelectedObjectID: 25474
 --- !u!114 &29
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -4980,10 +2153,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 754.5
-    y: 523.5
-    width: 425
-    height: 445.5
+    x: 1200.5
+    y: 616.5
+    width: 266
+    height: 409.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -5048,10 +2221,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1181.5
-    y: 523.5
-    width: 543.5
-    height: 445.5
+    x: 1468.5
+    y: 616.5
+    width: 258.5
+    height: 409.5
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -5072,8 +2245,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -5089,7 +2261,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: d2350300
     m_LastClickedID: 210386
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000425b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5117,7 +2289,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffffc4590000
+    m_ExpandedIDs: ffffffff00000000425b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

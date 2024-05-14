@@ -1,0 +1,101 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m8E5C7CE47A4C5A0B3FE28011EC7B8126A2E4C4F0 (void);
+extern void RefSafetyRulesAttribute__ctor_mA43BA36B1D2A62FA4A1778B508F1A6E1968BB5ED (void);
+extern void EnumerableExtensions_AllBinary_mEB5A38F6CF220EAF34F4AA858990A8DBF86F5DCC (void);
+extern void U3CU3Ec__cctor_m0DCE16AEE68C7CD71A3B082BF04D0BC0095AA246 (void);
+extern void U3CU3Ec__ctor_mBCE42FDFE15F5BB025093D3477D377187B2F49B2 (void);
+extern void U3CU3Ec_U3CAllBinaryU3Eb__2_0_m4DFDAB04BB276E50ABFED060EDBF432A328D6F17 (void);
+extern void U3CU3Ec_U3CAllBinaryU3Eb__2_1_m2AFD66D877FD06AA3ED2BB4FB7FC465B896E9E81 (void);
+extern void SerializedItem_get_Type_m00FE78F3B296AE5BBAC59173308291A54C5BCE2B (void);
+extern void SerializedItem_set_Type_mE5B82066EFE45A5323C064DF9C71AC1F47496164 (void);
+extern void SerializedItem_get_Text_mB58E0701EA610A58B348D57F0C19857AB47F584B (void);
+extern void SerializedItem_set_Text_mA738113FE69706DCEA0E4B3DC6D66F55277C8F1B (void);
+extern void SerializedItem_get_Binary_m8527497186827F57F591CEEE88559BB32B7E2ADA (void);
+extern void SerializedItem_set_Binary_m77BB37C9807F02222BC7152AECB54797BB3DEFB5 (void);
+extern void SerializedItem__ctor_m57A13B9C5747DE98D6A79D6F3EDCAA52D6DA84E7 (void);
+static Il2CppMethodPointer s_methodPointers[23] = 
+{
+	EmbeddedAttribute__ctor_m8E5C7CE47A4C5A0B3FE28011EC7B8126A2E4C4F0,
+	RefSafetyRulesAttribute__ctor_mA43BA36B1D2A62FA4A1778B508F1A6E1968BB5ED,
+	EnumerableExtensions_AllBinary_mEB5A38F6CF220EAF34F4AA858990A8DBF86F5DCC,
+	U3CU3Ec__cctor_m0DCE16AEE68C7CD71A3B082BF04D0BC0095AA246,
+	U3CU3Ec__ctor_mBCE42FDFE15F5BB025093D3477D377187B2F49B2,
+	U3CU3Ec_U3CAllBinaryU3Eb__2_0_m4DFDAB04BB276E50ABFED060EDBF432A328D6F17,
+	U3CU3Ec_U3CAllBinaryU3Eb__2_1_m2AFD66D877FD06AA3ED2BB4FB7FC465B896E9E81,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	SerializedItem_get_Type_m00FE78F3B296AE5BBAC59173308291A54C5BCE2B,
+	SerializedItem_set_Type_mE5B82066EFE45A5323C064DF9C71AC1F47496164,
+	SerializedItem_get_Text_mB58E0701EA610A58B348D57F0C19857AB47F584B,
+	SerializedItem_set_Text_mA738113FE69706DCEA0E4B3DC6D66F55277C8F1B,
+	SerializedItem_get_Binary_m8527497186827F57F591CEEE88559BB32B7E2ADA,
+	SerializedItem_set_Binary_m77BB37C9807F02222BC7152AECB54797BB3DEFB5,
+	SerializedItem__ctor_m57A13B9C5747DE98D6A79D6F3EDCAA52D6DA84E7,
+};
+static const int32_t s_InvokerIndices[23] = 
+{
+	5232,
+	4277,
+	7399,
+	7773,
+	5232,
+	3139,
+	3821,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5091,
+	4277,
+	5126,
+	4308,
+	5126,
+	4308,
+	5232,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_SocketIO_Serializer_Core_CodeGenModule;
+const Il2CppCodeGenModule g_SocketIO_Serializer_Core_CodeGenModule = 
+{
+	"SocketIO.Serializer.Core.dll",
+	23,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
