@@ -331,6 +331,7 @@
 -r:"Assets/NuGet/Editor/NugetForUnity.dll"
 -r:"Assets/NuGet/Editor/NuGetForUnity.PluginAPI.dll"
 -r:"Assets/Packages/Microsoft.Bcl.AsyncInterfaces.7.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+-r:"Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll"
 -r:"Assets/Packages/SocketIO.Core.3.1.1/lib/netstandard2.0/SocketIO.Core.dll"
 -r:"Assets/Packages/SocketIO.Serializer.Core.3.1.1/lib/netstandard2.0/SocketIO.Serializer.Core.dll"
 -r:"Assets/Packages/SocketIO.Serializer.SystemTextJson.3.1.1/lib/netstandard2.0/SocketIO.Serializer.SystemTextJson.dll"

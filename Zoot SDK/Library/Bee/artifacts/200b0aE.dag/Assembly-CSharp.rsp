@@ -325,6 +325,7 @@
 -r:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.28f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Assets/Packages/Microsoft.Bcl.AsyncInterfaces.7.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+-r:"Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll"
 -r:"Assets/Packages/SocketIO.Core.3.1.1/lib/netstandard2.0/SocketIO.Core.dll"
 -r:"Assets/Packages/SocketIO.Serializer.Core.3.1.1/lib/netstandard2.0/SocketIO.Serializer.Core.dll"
 -r:"Assets/Packages/SocketIO.Serializer.SystemTextJson.3.1.1/lib/netstandard2.0/SocketIO.Serializer.SystemTextJson.dll"
@@ -373,6 +374,8 @@
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll"
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll"
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll"
+"Assets/BetCashoutFailedIncomingPayload.cs"
+"Assets/DebugHelper.cs"
 "Assets/WebSocket.cs"
 -langversion:9.0
 /deterministic

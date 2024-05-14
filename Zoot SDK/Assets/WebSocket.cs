@@ -2,7 +2,6 @@ using UnityEngine;
 using SocketIOClient;
 using System.Collections.Generic;
 
-
 public class SocketManager : MonoBehaviour
 {
     private SocketIOClient.SocketIO client;
@@ -95,45 +94,42 @@ public class SocketManager : MonoBehaviour
          */
         client.On(BET_REGISTER_SUCCEEDED, response =>
         {
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming BET_REGISTER_SUCCEEDED:" + json);
-            Debug.Log(json);
+            Debug.Log("Incoming BET_REGISTER_SUCCEEDED:" + response.ToString());
         });
 
         client.On(BET_REGISTER_FAILED, response =>
         {
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming BET_REGISTER_FAILED:" + json);
-            Debug.Log(json);
+            Debug.Log("Incoming BET_REGISTER_FAILED:" + response.ToString());
         });
 
         client.On(BET_CASHOUT_SUCCEEDED, response =>
         {
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming BET_CASHOUT_SUCCEEDED:" + json);
-            Debug.Log(json);
+            Debug.Log("Incoming BET_CASHOUT_SUCCEEDED:" + response.ToString());
         });
 
         client.On(BET_CASHOUT_FAILED, response =>
         {
-            Debug.Log(response);
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming BET_CASHOUT_FAILED:" + json);
-            Debug.Log(json);
+            // Debugging incomint event payload 
+            BetCashoutFailedIncomingPayload t0 = response.GetValue<BetCashoutFailedIncomingPayload>();
+
+            object t2 = response;
+
+            Debug.Log("BET_CASHOUT_FAILED before fancy parsing");
+
+            var parsedResponse = response.GetValue<string>();
+            DebugHelper.LogObject(parsedResponse);
+
+            Debug.Log("BET_CASHOUT_FAILED reason: " + parsedResponse);
         });
 
         client.On(USER_BET_LIST_SUCCEEDED, response =>
         {
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming USER_BET_LIST_SUCCEEDED:" + json);
-            Debug.Log(json);
+            Debug.Log("Incoming USER_BET_LIST_SUCCEEDED:" + response.ToString());
         });
 
         client.On(USER_BET_LIST_FAILED, response =>
         {
-            string json = JsonUtility.ToJson(response, true);
-            Debug.Log("Incoming USER_BET_LIST_FAILED:" + json);
-            Debug.Log(json);
+            Debug.Log("Incoming USER_BET_LIST_FAILED:" + response.ToString());
         });
 
 
@@ -143,8 +139,10 @@ public class SocketManager : MonoBehaviour
          */
         client.On(WELCOME_FROM_SERVER, response =>
         {
-            Debug.Log("Incoming WELCOME_FROM_SERVER with GameRoundStatus: " + response.ToString());
+            var parsedResponse = response.GetValue<string>();
+            DebugHelper.LogObject(parsedResponse);
 
+            Debug.Log("Incoming WELCOME_FROM_SERVER with GameRoundStatus: " + response.ToString());
 
             CurrentGameRoundStatus.SetText(WELCOME_FROM_SERVER);
         });
@@ -154,6 +152,9 @@ public class SocketManager : MonoBehaviour
          */
         client.On(GAME_ROUND_PREPARED, response =>
         {
+            var parsedResponse = response.GetValue<string>();
+            DebugHelper.LogObject(parsedResponse);
+
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_PREPARED");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_PREPARED);
@@ -161,6 +162,9 @@ public class SocketManager : MonoBehaviour
 
         client.On(GAME_ROUND_LIVE, response =>
         {
+            var parsedResponse = response.GetValue<string>();
+            DebugHelper.LogObject(parsedResponse);
+
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_LIVE");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_LIVE);
@@ -168,6 +172,9 @@ public class SocketManager : MonoBehaviour
 
         client.On(GAME_ROUND_COMPLETED, response =>
         {
+            var parsedResponse = response.GetValue<string>();
+            DebugHelper.LogObject(parsedResponse);
+
             Debug.Log("Incoming GameRoundStatus: GAME_ROUND_COMPLETED");
 
             CurrentGameRoundStatus.SetText(GAME_ROUND_COMPLETED);
