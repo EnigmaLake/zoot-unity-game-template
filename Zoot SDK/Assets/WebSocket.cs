@@ -1,18 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using SocketIOClient;
+using System.Collections.Generic;
 
-public class WebSocket : MonoBehaviour
+public class SocketManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private SocketIOClient.SocketIO client;
+
+    public string DefaultSocketUrl = "non-empty";
+    public string GuestAccessToken = "your_guest_access_token";
+    public string GuestUserId = "your_guest_user_id";
+    public string Path = "/crash";
+
     void Start()
     {
-        
+        //SetSocket();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetSocket()
     {
-        
+        // Initialize the client with the socket URL and options
+        client = new SocketIOClient.SocketIO(DefaultSocketUrl, new SocketIOOptions
+        {
+            Path = Path,
+            Auth = new Dictionary<string, object>
+            {
+                { "authorization", $"Bearer {GuestAccessToken}" },
+                { "userId", GuestUserId }
+            },
+            Transport = SocketIOClient.Transport.TransportProtocol.WebSocket
+        }) ;
+
+        client.OnConnected += (sender, e) =>
+        {
+            Debug.Log("Connected to server");
+        };
+
+        client.ConnectAsync();
+    }
+
+    void OnDestroy()
+    {
+        if (client != null)
+        {
+            client.DisconnectAsync();
+        }
     }
 }
