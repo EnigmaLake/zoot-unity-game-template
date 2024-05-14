@@ -14,6 +14,9 @@ public class SocketManager : MonoBehaviour
 
     public string GameRoundUuid = "your_game_round_uuid";
 
+    public TMPro.TextMeshProUGUI CurrentGameRoundStatus;
+
+
     //
     // Server Actions (from server towards client)
     //
@@ -51,10 +54,15 @@ public class SocketManager : MonoBehaviour
 
     void Start()
     {
-        //SetSocket();
+        ConnectToSocket();
     }
 
-    public void ConnectToSocket()
+    private void Update()
+    {
+        CurrentGameRoundStatus.ForceMeshUpdate(true);
+    }
+
+    private void ConnectToSocket()
     {
         // Initialize the client with the socket URL and options
         client = new SocketIOClient.SocketIO(DefaultSocketUrl, new SocketIOOptions
@@ -90,6 +98,42 @@ public class SocketManager : MonoBehaviour
         client.On(BET_REGISTER_FAILED, response =>
         {
             Debug.Log("Bet register failed: " + response.ToString());
+        });
+
+        
+        client.On(WELCOME_FROM_SERVER, response =>
+        {
+            Debug.Log("response listener: " + response.ToString());
+
+            CurrentGameRoundStatus.SetText(WELCOME_FROM_SERVER);
+        });
+
+        client.On(GAME_ROUND_PREPARED, response =>
+        {
+            Debug.Log("response listener: " + response.ToString());
+
+            CurrentGameRoundStatus.SetText(GAME_ROUND_PREPARED);
+        });
+
+        client.On(GAME_ROUND_LIVE, response =>
+        {
+            Debug.Log("response listener: " + response.ToString());
+
+            CurrentGameRoundStatus.SetText(GAME_ROUND_LIVE);
+        });
+
+        client.On(GAME_ROUND_COMPLETED, response =>
+        {
+            Debug.Log("response listener: " + response.ToString());
+
+            CurrentGameRoundStatus.SetText(GAME_ROUND_COMPLETED);
+        });
+
+        client.On(GAME_ROUND_CANCELED, response =>
+        {
+            Debug.Log("response listener: " + response.ToString());
+
+            CurrentGameRoundStatus.SetText(GAME_ROUND_CANCELED);
         });
     }
 
