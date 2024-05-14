@@ -95,32 +95,45 @@ public class SocketManager : MonoBehaviour
          */
         client.On(BET_REGISTER_SUCCEEDED, response =>
         {
-            Debug.Log("Incoming BET_REGISTER_SUCCEEDED:" + response.ToString());
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming BET_REGISTER_SUCCEEDED:" + json);
+            Debug.Log(json);
         });
 
         client.On(BET_REGISTER_FAILED, response =>
         {
-            Debug.Log("Incoming BET_REGISTER_FAILED:" + response.ToString());
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming BET_REGISTER_FAILED:" + json);
+            Debug.Log(json);
         });
 
         client.On(BET_CASHOUT_SUCCEEDED, response =>
         {
-            Debug.Log("Incoming BET_CASHOUT_SUCCEEDED:" + response.ToString());
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming BET_CASHOUT_SUCCEEDED:" + json);
+            Debug.Log(json);
         });
 
         client.On(BET_CASHOUT_FAILED, response =>
         {
-            Debug.Log("Incoming BET_CASHOUT_FAILED:" + response.ToString());
+            Debug.Log(response);
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming BET_CASHOUT_FAILED:" + json);
+            Debug.Log(json);
         });
 
         client.On(USER_BET_LIST_SUCCEEDED, response =>
         {
-            Debug.Log("Incoming USER_BET_LIST_SUCCEEDED:" + response.ToString());
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming USER_BET_LIST_SUCCEEDED:" + json);
+            Debug.Log(json);
         });
 
         client.On(USER_BET_LIST_FAILED, response =>
         {
-            Debug.Log("Incoming USER_BET_LIST_FAILED:" + response.ToString());
+            string json = JsonUtility.ToJson(response, true);
+            Debug.Log("Incoming USER_BET_LIST_FAILED:" + json);
+            Debug.Log(json);
         });
 
 
