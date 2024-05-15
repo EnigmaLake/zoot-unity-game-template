@@ -1,17 +1,18 @@
 using UnityEngine;
 using SocketIOClient;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 public class GameServerSocketManager: MonoBehaviour
 {
     private SocketIOClient.SocketIO client;
 
-    public string DefaultSocketUrl = "non-empty";
+    public string DefaultSocketUrl = "http://localhost:8080/";
     public string UserAccessToken = "user_access_token_123";
-    public string UserId = "user_id";
+    public string UserId = "15";
     public string Path = "/crash";
 
-    public string GameRoundUuid = "your_game_round_uuid";
+    public string GameRoundUuid = "test123";
     public int playAmount = 1;
     public int coinTypeId = 0;
 
@@ -47,9 +48,10 @@ public class GameServerSocketManager: MonoBehaviour
     const string BET_CASHOUT = "BET_CASHOUT";
     const string BET_LIST = "BET_LIST";
 
-    void Start()
+    async void Start()
     {
-        ConnectToSocket();
+        Debug.Log("Calling ConnectToSocket");
+        await ConnectToSocket();
     }
 
     private void Update()
@@ -57,8 +59,14 @@ public class GameServerSocketManager: MonoBehaviour
         CurrentGameRoundStatus.ForceMeshUpdate(true);
     }
 
-    private void ConnectToSocket()
+    private async Task ConnectToSocket()
     {
+
+        Debug.Log("DefaultSocketUrl: " + DefaultSocketUrl);
+        Debug.Log("Path: " + Path);
+        Debug.Log("UserAccessToken: " + UserAccessToken);
+        Debug.Log("UserId: " + UserId);
+
         // Initialize the client with the socket URL and options
         client = new SocketIOClient.SocketIO(DefaultSocketUrl, new SocketIOOptions
         {
@@ -69,7 +77,28 @@ public class GameServerSocketManager: MonoBehaviour
                 { "userId", UserId }
             },
             Transport = SocketIOClient.Transport.TransportProtocol.WebSocket
-        }) ;
+        });
+
+        client.OnDisconnected += (sender, e) =>
+        {
+            Debug.Log("Disconnected from server");
+            Debug.Log(e.ToString());
+        };
+
+        client.OnReconnectAttempt += (sender, attempt) =>
+        {
+            Debug.Log("Reconnect attempt: " + attempt);
+        };
+
+        client.OnError += (sender, e) =>
+        {
+            Debug.Log("Socket Error: " + e);
+        };
+
+        client.On("connect_error", response =>
+        {
+            Debug.Log("Connect Error: " + response.ToString());
+        });
 
         client.OnConnected += (sender, e) =>
         {
@@ -78,7 +107,7 @@ public class GameServerSocketManager: MonoBehaviour
             SetupListeners();
         };
 
-        client.ConnectAsync();
+        await client.ConnectAsync();
     }
 
     /**

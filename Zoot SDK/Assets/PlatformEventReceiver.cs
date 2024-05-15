@@ -6,8 +6,12 @@ public class PlatformEventReceiver : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void SetupMessageEventListeners();
 
+    private GameServerSocketManager gameServerSocketManager;
+
     void Start()
     {
+        gameServerSocketManager = this.GetComponent<GameServerSocketManager>();
+
         SetupMessageEventListeners();
     }
 
@@ -31,6 +35,9 @@ public class PlatformEventReceiver : MonoBehaviour
     public void HandleUserInformation(string message)
     {
         Debug.Log("Received user information: " + message);
+
+        gameServerSocketManager.UserAccessToken = "test-1234567";
+        gameServerSocketManager.UserId = "123";
     }
-  
+
 }
