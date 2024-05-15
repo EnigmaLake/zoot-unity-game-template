@@ -6,12 +6,12 @@
 
             console.log("Before socket initialisation in WebSocketConnect with ws");
 
-            const socket = io("ws://localhost:8080", {
+            const socket = io("http://localhost:8080", {
                 auth: {
                     userId: 15,
                     authorization: "no-token",
                 },
-                path: "crash"
+                path: "/crash"
             });
 
             console.log("After socket initialisation in WebSocketConnect");
