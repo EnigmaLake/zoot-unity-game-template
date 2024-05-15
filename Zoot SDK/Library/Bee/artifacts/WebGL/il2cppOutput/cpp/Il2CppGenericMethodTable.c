@@ -37731,7 +37731,7 @@ const Il2CppGenericMethodFunctionsDefinitions g_Il2CppGenericMethodFunctions[377
 { 42552, 37607, 5474, -1},
 { 42553, 37608, 5474, -1},
 { 42554, 37609, 5474, -1},
-{ 45894, 0, 0, -1},
 { 45895, 0, 0, -1},
 { 45896, 0, 0, -1},
+{ 45897, 0, 0, -1},
 };

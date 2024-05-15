@@ -32,12 +32,39 @@ public class PlatformEventReceiver : MonoBehaviour
         Debug.Log("Received expanded game view command: " + message);
     }
 
-    public void HandleUserInformation(string message)
+    // Define a class to match the JSON structure
+    [System.Serializable]
+    public class UserInformation
     {
-        Debug.Log("Received user information: " + message);
+        public string type;
+        public string event_id;
+        public UserData data;
+    }
 
-        gameServerSocketManager.UserAccessToken = "test-1234567";
-        gameServerSocketManager.UserId = "123";
+    [System.Serializable]
+    public class UserData
+    {
+        public string nickname;
+        public string avatar;
+        public int id;
+        public string accessToken;
+    }
+
+    public void HandleUserInformation(string jsonMessage)
+    {
+        Debug.Log("Received user information: " + jsonMessage);
+
+        // Deserialize the JSON string into a UserInformation object
+        UserInformation userInfo = JsonUtility.FromJson<UserInformation>(jsonMessage);
+
+        // Update the game server socket manager with the new data
+        gameServerSocketManager.UserAccessToken = userInfo.data.accessToken;
+        gameServerSocketManager.UserId = userInfo.data.id.ToString();
+
+        Debug.Log("Nickname: " + userInfo.data.nickname);
+        Debug.Log("Avatar URL: " + userInfo.data.avatar);
+        Debug.Log("UserId: " + userInfo.data.id);
+        Debug.Log("AccessToken: " + userInfo.data.accessToken);
     }
 
 }

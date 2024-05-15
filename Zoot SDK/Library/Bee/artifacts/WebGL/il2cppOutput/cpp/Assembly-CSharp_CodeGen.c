@@ -38,12 +38,14 @@ extern void PlatformEventReceiver_HandleUserBalance_mE4CF0A0A6B64C996DA0F3811E7F
 extern void PlatformEventReceiver_HandleExpandedGameView_m4CD50730881DE9D5A9C5C0C557645F12A4113432 (void);
 extern void PlatformEventReceiver_HandleUserInformation_mA5222001C3359298AFE2E47E60F863530E067B55 (void);
 extern void PlatformEventReceiver__ctor_mC790FB653BC0822FA8F398A1D47E511814ECE2A3 (void);
+extern void UserInformation__ctor_m0C493840E7ADAF278886BD77DF2349853CECEBDB (void);
+extern void UserData__ctor_mA076326A612537E8AA39FA41751A1FFF7D63F9CF (void);
 extern void PlatformEventSender_sendEventResponse_m07766B7AB9143289F5643C2A47B65A99D0E437C0 (void);
 extern void PlatformEventSender_Start_mE959ACD6B2F6095EE691F764C62D14B396FA73A9 (void);
 extern void PlatformEventSender__ctor_m3518161D67AC1FD33B8D0D859C85F93C2CEF3B9B (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[31] = 
+static Il2CppMethodPointer s_methodPointers[33] = 
 {
 	GameServerSocketManager_GameServerSocketConnect_m772F86B5E8B251FC086AC216BBB70793707D5909,
 	GameServerSocketManager_GameServerSocketOn_mCDF9AD89A2B91934BACB0466509508333D3F9F83,
@@ -71,13 +73,15 @@ static Il2CppMethodPointer s_methodPointers[31] =
 	PlatformEventReceiver_HandleExpandedGameView_m4CD50730881DE9D5A9C5C0C557645F12A4113432,
 	PlatformEventReceiver_HandleUserInformation_mA5222001C3359298AFE2E47E60F863530E067B55,
 	PlatformEventReceiver__ctor_mC790FB653BC0822FA8F398A1D47E511814ECE2A3,
+	UserInformation__ctor_m0C493840E7ADAF278886BD77DF2349853CECEBDB,
+	UserData__ctor_mA076326A612537E8AA39FA41751A1FFF7D63F9CF,
 	PlatformEventSender_sendEventResponse_m07766B7AB9143289F5643C2A47B65A99D0E437C0,
 	PlatformEventSender_Start_mE959ACD6B2F6095EE691F764C62D14B396FA73A9,
 	PlatformEventSender__ctor_m3518161D67AC1FD33B8D0D859C85F93C2CEF3B9B,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[31] = 
+static const int32_t s_InvokerIndices[33] = 
 {
 	6676,
 	7817,
@@ -105,6 +109,8 @@ static const int32_t s_InvokerIndices[31] =
 	4476,
 	4476,
 	5474,
+	5474,
+	5474,
 	7817,
 	5474,
 	5474,
@@ -115,7 +121,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	31,
+	33,
 	s_methodPointers,
 	0,
 	NULL,
