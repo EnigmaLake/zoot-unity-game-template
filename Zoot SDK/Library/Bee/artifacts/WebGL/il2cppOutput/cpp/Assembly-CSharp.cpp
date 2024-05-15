@@ -186,7 +186,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral481F8129643035FF588010CFAEE10D7FFD43957B
 IL2CPP_EXTERN_C String_t* _stringLiteral595C194E0F89BE84AAFB16D52CF6798260185363;
 IL2CPP_EXTERN_C String_t* _stringLiteral5C5959A9AD6CC6D0D1686DD0953C379FA4CC990A;
 IL2CPP_EXTERN_C String_t* _stringLiteral5EDDD394E920686378F7F4A095FA1B670CCF415E;
+IL2CPP_EXTERN_C String_t* _stringLiteral641BF43B6C1C7A6FCCC27267FBACEA281CE2F56C;
 IL2CPP_EXTERN_C String_t* _stringLiteral6552E591829E3159D376C3A727B74F0468EEACA4;
+IL2CPP_EXTERN_C String_t* _stringLiteral7585F0BA48915997CD7F1D361D038AF96DCA5A16;
 IL2CPP_EXTERN_C String_t* _stringLiteral78A13BAA2743E3F77D72A527424E25E04102BAEF;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D8BDED5D86B8D15C24DE72955E9C2E9BB10E944;
 IL2CPP_EXTERN_C String_t* _stringLiteral81C3C5C20BDD4529087233C4877B40EC822E6684;
@@ -209,9 +211,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC2DA60AE96E2C9EF3EAF20897A5AA957AFDF64EC
 IL2CPP_EXTERN_C String_t* _stringLiteralDB0D1FC0BDB28B3C6B92E213737FF31418640201;
 IL2CPP_EXTERN_C String_t* _stringLiteralE13D4220EC9018FE3CBB6D463A32E1EBF0A31CB7;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3EA19DE4ABC57D8A565C54168DCE8C1ABE4B1DA;
+IL2CPP_EXTERN_C String_t* _stringLiteralEA707F77079C3DFFCAB867F1995B30D3500A7E82;
 IL2CPP_EXTERN_C String_t* _stringLiteralF255F8FE3E386C17F6A5E691BFECAF6ACD95A318;
 IL2CPP_EXTERN_C String_t* _stringLiteralF27195F8529556BF2A9E69CA6ACFF2BA66145D30;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3D214D9CA753D6EB2FB174E4285D303B0F51172;
+IL2CPP_EXTERN_C String_t* _stringLiteralFD6E39B87C60148C55F00DA7D9A786B11EE7E2F4;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CBetCashoutU3Ed__27_t4E7063AA16C6BFC99EB095DB9ABD54C9DB703BBB_mBEE7B5BCB1AB9B604EDFCB2EADDA18AE2C35F58A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CBetListU3Ed__28_tEE4DA74873D4A4351848207E6F083009314EDD57_mDC27CDC87F77F0C5C185077252F887923A57DFCD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833_TisU3CBetRegisterU3Ed__26_tAEAF1587B747848500E1CA7A142E7994B106079A_m67A47F416187B599005762117F3084C09864760A_RuntimeMethod_var;
@@ -1742,8 +1746,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m53A1FEE0D388CF3A629E093C04B5E1A6D5463B53 (RuntimeObject* ___0_obj, bool ___1_prettyPrint, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_Apple_m4C11D00AB042D4069029E55C355C925C114409B7 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_SetupMessageEventListeners_m5D982F69D58AF05E1476F278F7607D8DAC7AB8FF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SocketManager_ConnectToSocket_m1D7B51DC7BC554777FA243BB20D197490EC083D7 (SocketManager_tFA162C4D30D5A71D0A5F10FDA0CF83B2B1101650* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SocketIOOptions__ctor_m06916B51C57F7FF8822597396952026FFEF4776E (SocketIOOptions_t2EDBE2679895ED24A9A1D42C650F26BFF46610D3* __this, const RuntimeMethod* method) ;
@@ -1752,7 +1756,6 @@ inline void Dictionary_2__ctor_mC4F3DF292BAD88F4BF193C49CD689FAEBC4570A9 (Dictio
 {
 	((  void (*) (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 inline void Dictionary_2_Add_m5875DF2ACE933D734119C088B2E7C9C63F49B443 (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* __this, String_t* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method)
 {
 	((  void (*) (Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710*, String_t*, RuntimeObject*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
@@ -1819,7 +1822,6 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t9B661A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBetRegisterU3Ed__26_MoveNext_mB27C92F5EEAD13C2CF7C4B22B220FACCC35D9C8D (U3CBetRegisterU3Ed__26_tAEAF1587B747848500E1CA7A142E7994B106079A* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CBetRegisterU3Ed__26_SetStateMachine_m1127163C1FA8A8CCD732DD886AD5DE0E76139E17 (U3CBetRegisterU3Ed__26_tAEAF1587B747848500E1CA7A142E7994B106079A* __this, RuntimeObject* ___0_stateMachine, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C void DEFAULT_CALL Apple();
 IL2CPP_EXTERN_C void DEFAULT_CALL SetupMessageEventListeners();
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -1912,13 +1914,6 @@ IL_0026:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_Apple_m4C11D00AB042D4069029E55C355C925C114409B7 (const RuntimeMethod* method) 
-{
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
-
-	reinterpret_cast<PInvokeFunc>(Apple)();
-
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_SetupMessageEventListeners_m5D982F69D58AF05E1476F278F7607D8DAC7AB8FF (const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) ();
@@ -1929,8 +1924,79 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_SetupMessageEventListeners
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_Start_mBF0A4CEAE973DDC7E77C70206AF721A6FFA3A56C (EventReceiver_tAE746278E122401FB5116356D8E2F28B77848BEF* __this, const RuntimeMethod* method) 
 {
 	{
-		EventReceiver_Apple_m4C11D00AB042D4069029E55C355C925C114409B7(NULL);
 		EventReceiver_SetupMessageEventListeners_m5D982F69D58AF05E1476F278F7607D8DAC7AB8FF(NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_HandleGetUserCurrency_m8BF6BA5E96C27974ABCE4D69476674F2D1D086BF (EventReceiver_tAE746278E122401FB5116356D8E2F28B77848BEF* __this, String_t* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEA707F77079C3DFFCAB867F1995B30D3500A7E82);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_message;
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralEA707F77079C3DFFCAB867F1995B30D3500A7E82, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_HandleUserBalance_mB0DB4C900B3B33C5AF91F94C8B32E0E11D98A6CB (EventReceiver_tAE746278E122401FB5116356D8E2F28B77848BEF* __this, String_t* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7585F0BA48915997CD7F1D361D038AF96DCA5A16);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_message;
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7585F0BA48915997CD7F1D361D038AF96DCA5A16, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_HandleUserInformation_mFA6DF85F853B3A60B9C59997916296ACC7F702E1 (EventReceiver_tAE746278E122401FB5116356D8E2F28B77848BEF* __this, String_t* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral641BF43B6C1C7A6FCCC27267FBACEA281CE2F56C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_message;
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral641BF43B6C1C7A6FCCC27267FBACEA281CE2F56C, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventReceiver_HandleExpandedGameView_mCBAEB5C8D402E449920555ACED09B64E5AA1139C (EventReceiver_tAE746278E122401FB5116356D8E2F28B77848BEF* __this, String_t* ___0_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFD6E39B87C60148C55F00DA7D9A786B11EE7E2F4);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = ___0_message;
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralFD6E39B87C60148C55F00DA7D9A786B11EE7E2F4, L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
 		return;
 	}
 }
