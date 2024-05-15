@@ -81,10 +81,36 @@ public class GameServerSocketManager: MonoBehaviour
 
     public TMPro.TextMeshProUGUI CurrentGameRoundStatus;
 
-
-    public void HandleSocketOnMessage(string message)
+    [System.Serializable]
+    public class GameData
     {
-        Debug.Log("Received HandleSocketOnMessage: " + message);
+        public string gameRoundUuid;
+        public double timestamp;
+    }
+
+    [System.Serializable]
+    public class SocketMessage
+    {
+        public string eventName;
+        public GameData data;
+    }
+
+
+    public void HandleSocketOnMessage(string jsonMessage)
+    {
+        Debug.Log("Received HandleSocketOnMessage: " + jsonMessage);
+
+        SocketMessage message = JsonUtility.FromJson<SocketMessage>(jsonMessage);
+        Debug.Log("Received event: " + message.eventName);
+
+        switch (message.eventName)
+        {
+            case "GAME_ROUND_COMPLETED":
+                Debug.Log("Game Round UUID: " + message.data.gameRoundUuid);
+                // Handle game round completion logic
+                break;
+                // Handle other event types similarly
+        }
     }
     
 
