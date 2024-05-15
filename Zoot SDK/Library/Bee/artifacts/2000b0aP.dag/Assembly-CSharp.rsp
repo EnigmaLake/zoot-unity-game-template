@@ -310,10 +310,9 @@
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll"
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll"
 -analyzer:"Assets/Packages/System.Text.Json.7.0.3/analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll"
-"Assets/BetCashoutFailedIncomingPayload.cs"
-"Assets/EventReceiver.cs"
-"Assets/EventSender.cs"
-"Assets/WebSocket.cs"
+"Assets/GameServerSocketManager.cs"
+"Assets/PlatformEventReceiver.cs"
+"Assets/PlatformEventSender.cs"
 -langversion:9.0
 /deterministic
 /optimize+

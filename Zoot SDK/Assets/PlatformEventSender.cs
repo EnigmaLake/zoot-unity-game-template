@@ -1,10 +1,8 @@
 ﻿using UnityEngine;
 using System.Runtime.InteropServices;
 
-public class EventSender : MonoBehaviour
+public class PlatformEventSender : MonoBehaviour
 {
-
-
     [DllImport("__Internal")]
     private static extern void sendEventResponse(string message);
 

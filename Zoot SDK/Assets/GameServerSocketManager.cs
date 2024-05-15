@@ -2,7 +2,7 @@ using UnityEngine;
 using SocketIOClient;
 using System.Collections.Generic;
 
-public class SocketManager : MonoBehaviour
+public class GameServerSocketManager: MonoBehaviour
 {
     private SocketIOClient.SocketIO client;
 

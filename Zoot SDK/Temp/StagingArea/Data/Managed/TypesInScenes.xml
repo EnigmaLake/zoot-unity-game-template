@@ -1,8 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
-		<type fullname="EventReceiver" preserve="nothing"/>
-		<type fullname="EventSender" preserve="nothing"/>
-		<type fullname="SocketManager" preserve="nothing"/>
+		<type fullname="GameServerSocketManager" preserve="nothing"/>
+		<type fullname="PlatformEventReceiver" preserve="nothing"/>
+		<type fullname="PlatformEventSender" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>

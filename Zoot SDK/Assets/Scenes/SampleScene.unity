@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -833,7 +833,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1801500071}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SocketManager, Assembly-CSharp
         m_MethodName: BetList
         m_Mode: 1
@@ -1160,36 +1160,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1801500072}
-  - component: {fileID: 1801500071}
-  - component: {fileID: 1801500073}
   - component: {fileID: 1801500074}
+  - component: {fileID: 1801500073}
+  - component: {fileID: 1801500075}
   m_Layer: 0
-  m_Name: WebSocket
+  m_Name: GameServerSocketManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1801500071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801500070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 637c34be27d854276a9bb97d0137baf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DefaultSocketUrl: http://localhost:8080
-  UserAccessToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldJbkxiRFlqUHNHM09XWUdDaWxPZyJ9.eyJpc3MiOiJodHRwczovL2Rldi12N2VtcDA1Y291ajgyN2h0LnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMjE0NzEyOTE0NjM0MDkzNjk5NSIsImF1ZCI6WyJodHRwczovL2Rldi12N2VtcDA1Y291ajgyN2h0LnVzLmF1dGgwLmNvbS9hcGkvdjIvIiwiaHR0cHM6Ly9kZXYtdjdlbXAwNWNvdWo4MjdodC51cy5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzE1NzAyNjkyLCJleHAiOjE3MTU3MDk4OTIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLCJhenAiOiJ3WnpsWm16ZmNXbFVJSnZxMWp4NWM0c3ZHdFRJNTRHaSJ9.dD77VGa8wAhJ-X-i1QcaVchVfNWDMz5Tloh-zjplUleWRuPK4HTYYpWZPbpOIlPoihTRaNeX8sH7odvg2dhjOfRuXLny4fGLjotlC4igEqOIGHUjCluuI0FWWKE9F8uyYtPWaUqd-RdQW275gdRaLWDF_94oX8ImXm1tjcznhNQwWRUstA4BdF2vsAFVRSC4sjtzGAr6iPa4Ot_2DHVYc8RF8wPX5g0wIx5HHYq8ZetqGpgLnBU6LGZFQNUkp35xAwiFlxZ8WeESXjIsJhjG42xBghwovHpmnG98FFiYCSEP57ic6RV7_0ZwXcSe4iEYjA1VxTdZERxjwEb4d0abOg '
-  UserId: 15
-  Path: /crash
-  GameRoundUuid: c201896d-8ff7-4f47-9d6e-79a5b1851bbe
-  playAmount: 1
-  coinTypeId: 0
-  CurrentGameRoundStatus: {fileID: 274220923}
 --- !u!4 &1801500072
 Transform:
   m_ObjectHideFlags: 0
@@ -1214,7 +1194,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801500070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e165fbd318b764a1b979363f8ddea32b, type: 3}
+  m_Script: {fileID: 11500000, guid: 550870d1efa1f482eac0671138688087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1801500074
@@ -1226,7 +1206,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801500070}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5178413ee070b4e15a60692f5074f7df, type: 3}
+  m_Script: {fileID: 11500000, guid: a1b83bd94abd94fb995753352aa48ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultSocketUrl: http://localhost:8080/
+  UserAccessToken: user_access_token_123
+  UserId: 15
+  Path: /crash
+  GameRoundUuid: test123
+  playAmount: 1
+  coinTypeId: 0
+  CurrentGameRoundStatus: {fileID: 274220923}
+--- !u!114 &1801500075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801500070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d6d0ebca6544aa8a36392ae296ee1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1980904896
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1801500071}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SocketManager, Assembly-CSharp
         m_MethodName: BetCashout
         m_Mode: 1
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1801500071}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SocketManager, Assembly-CSharp
         m_MethodName: BetRegister
         m_Mode: 1
