@@ -1,6 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="EventReceiver" preserve="nothing"/>
+		<type fullname="EventSender" preserve="nothing"/>
 		<type fullname="SocketManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">

@@ -313,6 +313,7 @@
 "Assets/BetCashoutFailedIncomingPayload.cs"
 "Assets/DebugHelper.cs"
 "Assets/EventReceiver.cs"
+"Assets/EventSender.cs"
 "Assets/WebSocket.cs"
 -langversion:9.0
 /deterministic

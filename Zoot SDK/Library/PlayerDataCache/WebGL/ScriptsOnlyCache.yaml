@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EventReceiver
+    - EventSender
     - SocketManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -125,6 +126,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6118}
     - Class: 114
       Script: {instanceID: 6912}
+    - Class: 114
+      Script: {instanceID: 34210}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -976,6 +979,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 42f86b849f062b806ece816f79f8add9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EventSender
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
