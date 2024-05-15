@@ -24,13 +24,14 @@ public class EventReceiver : MonoBehaviour
         Debug.Log("Received user balance: " + message);
     }
 
-    public void HandleUserInformation(string message)
-    {
-        Debug.Log("Received user information: " + message);
-    }
-
     public void HandleExpandedGameView(string message)
     {
         Debug.Log("Received expanded game view command: " + message);
     }
+
+    public void HandleUserInformation(string message)
+    {
+        Debug.Log("Received user information: " + message);
+    }
+  
 }
