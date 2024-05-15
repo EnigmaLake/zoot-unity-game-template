@@ -3,7 +3,6 @@
 		<type fullname="GameServerSocketManager" preserve="nothing"/>
 		<type fullname="PlatformEventReceiver" preserve="nothing"/>
 		<type fullname="PlatformEventSender" preserve="nothing"/>
-		<type fullname="WebSocketManager" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
 		<type fullname="TMPro.TextMeshProUGUI" preserve="nothing"/>

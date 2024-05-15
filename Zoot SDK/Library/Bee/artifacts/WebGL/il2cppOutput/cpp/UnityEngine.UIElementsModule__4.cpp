@@ -6850,7 +6850,7 @@ IL_0017:
 		L_3 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline(__this, NULL);
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5 = ___1_data;
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(23, L_3, L_4, L_5);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(27, L_3, L_4, L_5);
 		return;
 	}
 }

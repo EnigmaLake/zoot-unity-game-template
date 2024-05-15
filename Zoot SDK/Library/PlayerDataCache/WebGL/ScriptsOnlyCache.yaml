@@ -4,7 +4,6 @@ ScriptsOnlyBuild:
     - GameServerSocketManager
     - PlatformEventReceiver
     - PlatformEventSender
-    - WebSocketManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -979,12 +978,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlatformEventReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: bc09d064c630565ed08abb6ea9b80801
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: WebSocketManager
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

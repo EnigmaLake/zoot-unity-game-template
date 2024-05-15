@@ -23064,7 +23064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DefaultDragAndDropClient_GetGe
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->___m_GenericData;
 		String_t* L_1 = ___0_key;
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(20, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(24, L_0, L_1);
 		if (L_2)
 		{
 			goto IL_0012;
@@ -23080,7 +23080,7 @@ IL_0012:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_3 = __this->___m_GenericData;
 		String_t* L_4 = ___0_key;
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(22, L_3, L_4);
+		L_5 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(26, L_3, L_4);
 		G_B3_0 = L_5;
 	}
 
@@ -23150,7 +23150,7 @@ IL_0021:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_5;
 		L_5 = StartDragArgs_get_genericData_m9F34B0D595FC63E28E4D033BCA5767E5ED8185BD_inline((&___0_args), NULL);
 		RuntimeObject* L_6;
-		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(24, L_5);
+		L_6 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(28, L_5);
 		V_3 = L_6;
 	}
 	{
@@ -23196,7 +23196,7 @@ IL_003e_1:
 				L_13 = DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_inline((&V_4), NULL);
 				RuntimeObject* L_14;
 				L_14 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_4), NULL);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(23, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, String_t_il2cpp_TypeInfo_var)), L_14);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(27, L_12, ((String_t*)CastclassSealed((RuntimeObject*)L_13, String_t_il2cpp_TypeInfo_var)), L_14);
 			}
 
 IL_006c_1:
@@ -23417,7 +23417,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultDragAndDropClient_DragCleanup_mB9
 
 IL_0014:
 	{
-		VirtualActionInvoker0::Invoke(17, G_B2_0);
+		VirtualActionInvoker0::Invoke(21, G_B2_0);
 	}
 
 IL_001a:

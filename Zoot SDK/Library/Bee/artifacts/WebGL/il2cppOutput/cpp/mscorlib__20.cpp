@@ -2017,6 +2017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FormatLiterals_tB7BAA4DA8EAC1AB8D825A2D9C446C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Math_Pow_mEAE651F0858203FBE12B72B6A53951BBD0FB5265 (double ___0_x, double ___1_y, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanToken_IsInvalidFraction_m59071E07A13FD7AE1353FE07394A460BEDDF6479 (TimeSpanToken_t5168CC29FD9B3BA68311DEBBD71541D1C133B892* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanResult__ctor_m7B7631A4C6E93FCB42AF9F050CFC9438B559BCDE (TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* __this, bool ___0_throwOnFailure, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseTimeSpan_m3C26BEEE4E929988448F53E231C8D2C570840937 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, uint8_t ___1_style, RuntimeObject* ___2_formatProvider, TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* ___3_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseExactTimeSpan_m4FE53224B6E400936F1BA48A9C368AA4295B66E3 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, RuntimeObject* ___2_formatProvider, int32_t ___3_styles, TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* ___4_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 MemoryExtensions_Trim_m8062B15A9D800FE916FEF8755F6C4F38B66E6030 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_span, const RuntimeMethod* method) ;
 inline bool ReadOnlySpan_1_get_IsEmpty_m22F5E8F0D6F1A092ACB472D02E0A0526E5FBBBD7 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1* __this, const RuntimeMethod* method)
@@ -2051,7 +2052,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanRawInfo_PartialAppCompatMatch_m1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanRawInfo_FullHMMatch_m3E2B1D9C839CCAE9B216704DE7BBCD5BDB386722 (TimeSpanRawInfo_tDB52E4C9854A909DB47D2FEF0A1114A57F3C29FA* __this, FormatLiterals_tB7BAA4DA8EAC1AB8D825A2D9C446C9FCD9BBD94A ___0_pattern, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanRawInfo_FullDMatch_m173FB926545B5DD01EFD48A19D78B76F6EE9BF59 (TimeSpanRawInfo_tDB52E4C9854A909DB47D2FEF0A1114A57F3C29FA* __this, FormatLiterals_tB7BAA4DA8EAC1AB8D825A2D9C446C9FCD9BBD94A ___0_pattern, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseTimeSpanConstant_m22F80DF21ACD3287AB227EC102810DC461C4A938 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* ___1_result, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseTimeSpan_m3C26BEEE4E929988448F53E231C8D2C570840937 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, uint8_t ___1_style, RuntimeObject* ___2_formatProvider, TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* ___3_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseByFormat_m02B59EFD11E57BE9866F34B60303D1CE3156FC50 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, int32_t ___2_styles, TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7* ___3_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeSpanTokenizer__ctor_m1CDD5ADE033CD9FD89E7C44FA4CC6CFA0A58263B (TimeSpanTokenizer_tE63BC334928B0675B0F227151E0A112C933E20B3* __this, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, int32_t ___1_startPosition, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_ParseExactDigits_m8C81F4494D9EBB67EAEEC34F04B92D57D95FFE89 (TimeSpanTokenizer_tE63BC334928B0675B0F227151E0A112C933E20B3* ___0_tokenizer, int32_t ___1_minDigitLength, int32_t* ___2_result, const RuntimeMethod* method) ;
@@ -2187,7 +2187,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CultureData_get_STEXTIN
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_GetCultureInfo_m7B3C1F8F350401E2FE485E2D1693BA2A0B7BEB6D (int32_t ___0_culture, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextInfo_OnDeserialized_m86CE3E0EA7944C1BF29A1202213BF0A86632DB93 (TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TextInfo_SetReadOnlyState_m96282842532B04ECC10FCFEC2DA6B9F495B02766_inline (TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* __this, bool ___0_readOnly, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CultureData_get_SLIST_mB31631B7B108A09EDD18212BDC9D32E2A91CE3DA_inline (CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextInfo_IsAscii_mC4992695C136A0EA4EFCF2AD51B28E1023C66C61 (Il2CppChar ___0_c, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextInfo_get_IsAsciiCasingSameAsInvariant_m1BB9F7D77BAB27194941810032512DDA9C5B6A68 (TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar TextInfo_ToLowerAsciiInvariant_mE7573F22AA9CB987D607803C6B4DE9A8D185CCA8 (Il2CppChar ___0_c, const RuntimeMethod* method) ;
@@ -7118,6 +7117,21 @@ IL_00d3:
 IL_00f1:
 	{
 		return (bool)1;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A TimeSpanParse_Parse_m50A38252B099B25B588430838427ECF11604F6BB (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
+{
+	TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		TimeSpanResult__ctor_m7B7631A4C6E93FCB42AF9F050CFC9438B559BCDE((&V_0), (bool)1, NULL);
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___0_input;
+		RuntimeObject* L_1 = ___1_formatProvider;
+		bool L_2;
+		L_2 = TimeSpanParse_TryParseTimeSpan_m3C26BEEE4E929988448F53E231C8D2C570840937(L_0, 3, L_1, (&V_0), NULL);
+		TimeSpanResult_tD0B15293C8224251926B8E7F9D699E00A0CB10B7 L_3 = V_0;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_4 = L_3.___parsedTimeSpan;
+		return L_4;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TimeSpanParse_TryParseExact_m3E3436381CF4F1BB0B32B199F889AD7AFE356580 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, RuntimeObject* ___2_formatProvider, int32_t ___3_styles, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___4_result, const RuntimeMethod* method) 
@@ -13303,6 +13317,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Calendar_IsLeapYear_m4F98AE1F5F0402DCB2D
 		return L_1;
 	}
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D Calendar_ToDateTime_m864CD52D309509591B7BE1ED28BB97B992FD3F44 (Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* __this, int32_t ___0_year, int32_t ___1_month, int32_t ___2_day, int32_t ___3_hour, int32_t ___4_minute, int32_t ___5_second, int32_t ___6_millisecond, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_year;
+		int32_t L_1 = ___1_month;
+		int32_t L_2 = ___2_day;
+		int32_t L_3 = ___3_hour;
+		int32_t L_4 = ___4_minute;
+		int32_t L_5 = ___5_second;
+		int32_t L_6 = ___6_millisecond;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_7;
+		L_7 = VirtualFuncInvoker8< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t >::Invoke(23, __this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, 0);
+		return L_7;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Calendar_TryToDateTime_mB9FCB93FFA24E773B4CE1BFF046E3F678FEB2CAA (Calendar_t0A117CC7532A54C17188C2EFEA1F79DB20DF3A3B* __this, int32_t ___0_year, int32_t ___1_month, int32_t ___2_day, int32_t ___3_hour, int32_t ___4_minute, int32_t ___5_second, int32_t ___6_millisecond, int32_t ___7_era, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* ___8_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13331,7 +13360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Calendar_TryToDateTime_mB9FCB93FFA24E773
 		int32_t L_9 = ___6_millisecond;
 		int32_t L_10 = ___7_era;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_11;
-		L_11 = VirtualFuncInvoker8< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t >::Invoke(22, __this, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10);
+		L_11 = VirtualFuncInvoker8< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t >::Invoke(23, __this, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10);
 		*(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)L_2 = L_11;
 		V_0 = (bool)1;
 		goto IL_002f;
@@ -13393,7 +13422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Calendar_IsValidMonth_m0E513A4D6540018F5
 		int32_t L_0 = ___0_year;
 		int32_t L_1 = ___2_era;
 		bool L_2;
-		L_2 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(24, __this, L_0, L_1);
+		L_2 = VirtualFuncInvoker2< bool, int32_t, int32_t >::Invoke(25, __this, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_001d;
@@ -13427,7 +13456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Calendar_IsValidDay_mA84D1D6A94C33A0030C
 		int32_t L_1 = ___1_month;
 		int32_t L_2 = ___3_era;
 		bool L_3;
-		L_3 = VirtualFuncInvoker3< bool, int32_t, int32_t, int32_t >::Invoke(25, __this, L_0, L_1, L_2);
+		L_3 = VirtualFuncInvoker3< bool, int32_t, int32_t, int32_t >::Invoke(26, __this, L_0, L_1, L_2);
 		if (!L_3)
 		{
 			goto IL_0021;
@@ -13502,10 +13531,10 @@ IL_0019:
 	}
 	{
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(27, __this);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(28, __this);
 		int32_t L_5 = ___0_year;
 		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(27, __this);
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(28, __this);
 		if ((((int32_t)L_5) > ((int32_t)((int32_t)(L_6%((int32_t)100))))))
 		{
 			G_B5_0 = ((int32_t)(L_4/((int32_t)100)));
@@ -15890,7 +15919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GregorianCalendar_GetDayOfMonth_mBEBC
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 3);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 3);
 		return L_1;
 	}
 }
@@ -16181,7 +16210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GregorianCalendar_GetMonth_m263904FE6
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 2);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 2);
 		return L_1;
 	}
 }
@@ -16261,7 +16290,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GregorianCalendar_GetYear_mFD72780552
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 0);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 0);
 		return L_1;
 	}
 }
@@ -18673,7 +18702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HijriCalendar_GetDayOfMonth_mF9C718BF
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 3);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 3);
 		return L_1;
 	}
 }
@@ -18827,7 +18856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HijriCalendar_GetMonth_m2D4AA3A343992
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 2);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 2);
 		return L_1;
 	}
 }
@@ -18860,7 +18889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HijriCalendar_GetYear_m3754F45443EA92
 		int64_t L_0;
 		L_0 = DateTime_get_Ticks_mC2CF04ED0EAB425C72C2532FFC5743777F3C93A6((&___0_time), NULL);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(30, __this, L_0, 0);
+		L_1 = VirtualFuncInvoker2< int32_t, int64_t, int32_t >::Invoke(31, __this, L_0, 0);
 		return L_1;
 	}
 }
@@ -21226,29 +21255,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextInfo_SetReadOnlyState_m96282842532B0
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextInfo_get_ListSeparator_m32174D2AE16B417A257A3B496B16D556184129F5 (TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* __this, const RuntimeMethod* method) 
-{
-	{
-		String_t* L_0 = __this->___m_listSeparator;
-		if (L_0)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* L_1 = __this->___m_cultureData;
-		String_t* L_2;
-		L_2 = CultureData_get_SLIST_mB31631B7B108A09EDD18212BDC9D32E2A91CE3DA_inline(L_1, NULL);
-		__this->___m_listSeparator = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_listSeparator), (void*)L_2);
-	}
-
-IL_0019:
-	{
-		String_t* L_3 = __this->___m_listSeparator;
-		return L_3;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar TextInfo_ToLower_mB442BAE653B21A106F854AAC29AEDC21B34E58CF (TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
@@ -21653,7 +21659,7 @@ IL_0047:
 		Il2CppChar* L_19 = V_6;
 		int32_t L_20 = *((uint16_t*)L_19);
 		Il2CppChar L_21;
-		L_21 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(10, __this, L_20);
+		L_21 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(9, __this, L_20);
 		*((int16_t*)L_18) = (int16_t)L_21;
 		Il2CppChar* L_22 = V_6;
 		V_6 = ((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_22, 2));
@@ -21771,7 +21777,7 @@ IL_0047:
 		Il2CppChar* L_19 = V_6;
 		int32_t L_20 = *((uint16_t*)L_19);
 		Il2CppChar L_21;
-		L_21 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(8, __this, L_20);
+		L_21 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(7, __this, L_20);
 		*((int16_t*)L_18) = (int16_t)L_21;
 		Il2CppChar* L_22 = V_6;
 		V_6 = ((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_22, 2));
@@ -23010,7 +23016,7 @@ IL_0029:
 		V_4 = ((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_12, 2));
 		int32_t L_13 = *((uint16_t*)L_12);
 		Il2CppChar L_14;
-		L_14 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(10, __this, L_13);
+		L_14 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(9, __this, L_13);
 		*((int16_t*)L_10) = (int16_t)L_14;
 		int32_t L_15 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_15, 1));
@@ -23040,7 +23046,7 @@ IL_004f:
 		V_4 = ((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_21, 2));
 		int32_t L_22 = *((uint16_t*)L_21);
 		Il2CppChar L_23;
-		L_23 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(8, __this, L_22);
+		L_23 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(7, __this, L_22);
 		*((int16_t*)L_19) = (int16_t)L_23;
 		int32_t L_24 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_24, 1));
@@ -23354,7 +23360,7 @@ IL_0019:
 		GregorianCalendarHelper_tC77507376E36EEDABC1786237BADF1BF459F9723* L_3 = __this->___helper;
 		int32_t L_4 = ___0_year;
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(27, __this);
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(28, __this);
 		int32_t L_6;
 		L_6 = GregorianCalendarHelper_ToFourDigitYear_m4E5C6CAD9E549AA1919514CC019D223036110B78(L_3, L_4, L_5, NULL);
 		return L_6;
@@ -23573,13 +23579,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TextInfo_SetReadOnlyState_m9
 		bool L_0 = ___0_readOnly;
 		__this->___m_isReadOnly = L_0;
 		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CultureData_get_SLIST_mB31631B7B108A09EDD18212BDC9D32E2A91CE3DA_inline (CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* __this, const RuntimeMethod* method) 
-{
-	{
-		String_t* L_0 = __this->___sListSeparator;
-		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CultureData_get_SISO639LANGNAME_mE278D78EE726CC8269BB8477C0BA7242AA79D3C8_inline (CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* __this, const RuntimeMethod* method) 

@@ -313,7 +313,6 @@
 "Assets/GameServerSocketManager.cs"
 "Assets/PlatformEventReceiver.cs"
 "Assets/PlatformEventSender.cs"
-"Assets/WebSocketManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

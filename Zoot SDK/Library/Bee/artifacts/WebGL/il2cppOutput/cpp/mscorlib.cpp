@@ -4129,38 +4129,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_GetString_m2F0EFCFA5FE3DB6DE89C5
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m591865DD0E3D694EA2523F62165EAE9E05D2D79C (String_t* ___0_resourceFormat, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ___1_args;
-		if (!L_0)
-		{
-			goto IL_0010;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_il2cpp_TypeInfo_var);
-		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_1;
-		L_1 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
-		String_t* L_2 = ___0_resourceFormat;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = ___1_args;
-		String_t* L_4;
-		L_4 = String_Format_m447B585713E5EB3EBF5D9D0710706D01E8A56D75(L_1, L_2, L_3, NULL);
-		return L_4;
-	}
-
-IL_0010:
-	{
-		String_t* L_5 = ___0_resourceFormat;
-		return L_5;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9E8DC9AEFDC34AC67473EFAEAB78C5066C1A0D09 (String_t* ___0_resourceFormat, RuntimeObject* ___1_p1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6476,7 +6444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SmallXmlParser_Peek_mD173A8049A313FE6
 	{
 		TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7* L_0 = __this->___reader;
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(8, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_0);
 		return L_1;
 	}
 }
@@ -6489,7 +6457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SmallXmlParser_Read_m6FD131F7AC40E5B5
 	{
 		TextReader_tB8D43017CB6BE1633E5A86D64E7757366507C1F7* L_0 = __this->___reader;
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(9, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(10, L_0);
 		int32_t L_2 = L_1;
 		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)10)))))
 		{
@@ -12380,7 +12348,7 @@ IL_0013:
 		TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* L_6 = __this->___textInfo;
 		int32_t L_7 = ___0_i;
 		Il2CppChar L_8;
-		L_8 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(8, L_6, ((int32_t)(uint16_t)L_7));
+		L_8 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(7, L_6, ((int32_t)(uint16_t)L_7));
 		___0_i = L_8;
 	}
 
@@ -12396,7 +12364,7 @@ IL_002b:
 		TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4* L_10 = __this->___textInfo;
 		int32_t L_11 = ___0_i;
 		Il2CppChar L_12;
-		L_12 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(8, L_10, ((int32_t)(uint16_t)L_11));
+		L_12 = VirtualFuncInvoker1< Il2CppChar, Il2CppChar >::Invoke(7, L_10, ((int32_t)(uint16_t)L_11));
 		___0_i = L_12;
 	}
 
@@ -22049,7 +22017,7 @@ IL_0032:
 		{
 			StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* L_7 = V_1;
 			String_t* L_8;
-			L_8 = VirtualFuncInvoker0< String_t* >::Invoke(11, L_7);
+			L_8 = VirtualFuncInvoker0< String_t* >::Invoke(12, L_7);
 			KeyPairPersistence_FromXml_m6D94C0820F4E00B8761FD92E3404E5C583215876(__this, L_8, NULL);
 			goto IL_0033;
 		}
@@ -22117,7 +22085,7 @@ IL_0034:
 			StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* L_7 = L_6;
 			String_t* L_8;
 			L_8 = KeyPairPersistence_ToXml_mC806794E51F1AFCBD05773B5B2B11B1EC54E276E(__this, NULL);
-			VirtualActionInvoker1< String_t* >::Invoke(13, L_7, L_8);
+			VirtualActionInvoker1< String_t* >::Invoke(16, L_7, L_8);
 			VirtualActionInvoker0::Invoke(8, L_7);
 			goto IL_0035;
 		}
