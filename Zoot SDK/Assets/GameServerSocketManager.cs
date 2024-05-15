@@ -98,19 +98,11 @@ public class GameServerSocketManager: MonoBehaviour
 
     public void HandleSocketOnMessage(string jsonMessage)
     {
-        Debug.Log("Received HandleSocketOnMessage: " + jsonMessage);
-
         SocketMessage message = JsonUtility.FromJson<SocketMessage>(jsonMessage);
         Debug.Log("Received event: " + message.eventName);
 
-        switch (message.eventName)
-        {
-            case "GAME_ROUND_COMPLETED":
-                Debug.Log("Game Round UUID: " + message.data.gameRoundUuid);
-                // Handle game round completion logic
-                break;
-                // Handle other event types similarly
-        }
+        CurrentGameRoundStatus.text = message.eventName;
+        GameRoundUuid = message.data.gameRoundUuid;
     }
     
 

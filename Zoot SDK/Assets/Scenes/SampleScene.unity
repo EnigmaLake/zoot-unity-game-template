@@ -1163,7 +1163,6 @@ GameObject:
   - component: {fileID: 1801500074}
   - component: {fileID: 1801500073}
   - component: {fileID: 1801500075}
-  - component: {fileID: 1801500076}
   m_Layer: 0
   m_Name: GameServerSocketManager
   m_TagString: Untagged
@@ -1230,21 +1229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03d6d0ebca6544aa8a36392ae296ee1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1801500076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801500070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 100f28b0a514647b09819cdc33173bad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DefaultSocketUrl: http://localhost:8080
-  UserAccessToken: your_user_access_token
-  UserId: your_user_id
 --- !u!1 &1980904896
 GameObject:
   m_ObjectHideFlags: 0
