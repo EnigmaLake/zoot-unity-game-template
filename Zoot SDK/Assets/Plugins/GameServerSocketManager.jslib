@@ -33,7 +33,7 @@
 
         if (this.socket) {
             this.socket.on(eventName, function(data) {
-                SendMessage('GameServerSocketManager', 'HandleSocketOnMessage', JSON.stringify(data));
+                SendMessage('GameServerSocketManager', 'HandleSocketOnMessage', JSON.stringify({ eventName, data }));
             });
         } else {
             console.log('WebSocket is not connected. Cannot add event listener.');
