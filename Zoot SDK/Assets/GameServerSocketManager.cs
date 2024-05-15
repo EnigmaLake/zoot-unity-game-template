@@ -50,7 +50,6 @@ public class GameServerSocketManager: MonoBehaviour
 
     async void Start()
     {
-        Debug.Log("Calling ConnectToSocket");
         await ConnectToSocket();
     }
 
@@ -61,7 +60,7 @@ public class GameServerSocketManager: MonoBehaviour
 
     private async Task ConnectToSocket()
     {
-
+        Debug.Log("Calling ConnectToSocket");
         Debug.Log("DefaultSocketUrl: " + DefaultSocketUrl);
         Debug.Log("Path: " + Path);
         Debug.Log("UserAccessToken: " + UserAccessToken);

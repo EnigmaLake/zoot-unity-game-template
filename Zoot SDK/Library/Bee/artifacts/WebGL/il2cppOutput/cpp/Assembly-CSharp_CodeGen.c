@@ -58,9 +58,16 @@ extern void PlatformEventReceiver__ctor_mC790FB653BC0822FA8F398A1D47E511814ECE2A
 extern void PlatformEventSender_sendEventResponse_m07766B7AB9143289F5643C2A47B65A99D0E437C0 (void);
 extern void PlatformEventSender_Start_mE959ACD6B2F6095EE691F764C62D14B396FA73A9 (void);
 extern void PlatformEventSender__ctor_m3518161D67AC1FD33B8D0D859C85F93C2CEF3B9B (void);
+extern void WebSocketManager_WebSocketConnect_mAEDB0466AD8A9E3B816A0E75B0B2285516368EBA (void);
+extern void WebSocketManager_WebSocketSend_m568910354228C5A2DBF2E10DB817D206584815E3 (void);
+extern void WebSocketManager_WebSocketClose_mA0C0D5FA8C379F5A537E0B13EA811F31CE342C1B (void);
+extern void WebSocketManager_Start_m2BB41D22D47DA3419283ADED8C501B06C18FC35A (void);
+extern void WebSocketManager_SendSocketMessage_mA0F3788FB853216B4DA2E37FA56D2609B0DAEE10 (void);
+extern void WebSocketManager_CloseConnection_m68334AE8D6E7F1F4B373F30023E5EB4A506B53E6 (void);
+extern void WebSocketManager__ctor_mDE9308FFBB8D301444FE7BDEC1FDA9EC4559B12E (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[48] = 
+static Il2CppMethodPointer s_methodPointers[55] = 
 {
 	GameServerSocketManager_Start_m87214790DB77C1DEEB2C8D63985875DE0C35C5AB,
 	GameServerSocketManager_Update_m43C58823A7B21F61CACD68C67489F922726E0FAE,
@@ -108,6 +115,13 @@ static Il2CppMethodPointer s_methodPointers[48] =
 	PlatformEventSender_sendEventResponse_m07766B7AB9143289F5643C2A47B65A99D0E437C0,
 	PlatformEventSender_Start_mE959ACD6B2F6095EE691F764C62D14B396FA73A9,
 	PlatformEventSender__ctor_m3518161D67AC1FD33B8D0D859C85F93C2CEF3B9B,
+	WebSocketManager_WebSocketConnect_mAEDB0466AD8A9E3B816A0E75B0B2285516368EBA,
+	WebSocketManager_WebSocketSend_m568910354228C5A2DBF2E10DB817D206584815E3,
+	WebSocketManager_WebSocketClose_mA0C0D5FA8C379F5A537E0B13EA811F31CE342C1B,
+	WebSocketManager_Start_m2BB41D22D47DA3419283ADED8C501B06C18FC35A,
+	WebSocketManager_SendSocketMessage_mA0F3788FB853216B4DA2E37FA56D2609B0DAEE10,
+	WebSocketManager_CloseConnection_m68334AE8D6E7F1F4B373F30023E5EB4A506B53E6,
+	WebSocketManager__ctor_mDE9308FFBB8D301444FE7BDEC1FDA9EC4559B12E,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
@@ -134,7 +148,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] =
 	{ 0x06000023, U3CStartU3Ed__22_MoveNext_mBECD8026D01BFF2F9143F405D99EBE1C0BF67295_AdjustorThunk },
 	{ 0x06000024, U3CStartU3Ed__22_SetStateMachine_m4AB2789A29A2FEE7D312CE99C58B37F060C628C0_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[48] = 
+static const int32_t s_InvokerIndices[55] = 
 {
 	5232,
 	5232,
@@ -182,6 +196,13 @@ static const int32_t s_InvokerIndices[48] =
 	7604,
 	5232,
 	5232,
+	6414,
+	7604,
+	7773,
+	5232,
+	4308,
+	5232,
+	5232,
 	7777,
 	5232,
 };
@@ -189,7 +210,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	48,
+	55,
 	s_methodPointers,
 	10,
 	s_adjustorThunks,
