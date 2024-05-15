@@ -1,41 +1,50 @@
 ﻿mergeInto(LibraryManager.library, {
-    WebSocketConnect: function(url, userId, userAccessToken) {
-            console.log("Executing WebSocketConnect");
+        socket: null, // Define a socket variable at the top level to keep the reference
 
-            console.log({ url, userId, userAccessToken });
+        WebSocketConnect: function(urlUtf8, userIdUtf8, userAccessTokenUtf8) {
+            const url = UTF8ToString(urlUtf8);
+            const userId = UTF8ToString(userIdUtf8);
+            const userAccessToken = UTF8ToString(userAccessTokenUtf8);
+        
+            console.log({ message: "Executing WebSocketConnect with parsed data", url, userId, userAccessToken });
 
-            console.log("Before socket initialisation in WebSocketConnect with ws");
-
-            const socket = io("http://localhost:8080", {
+            // Store the socket in the top level 'socket' variable
+            this.socket = io(url, {
                 auth: {
-                    userId: 15,
-                    authorization: "no-token",
+                    userId,
+                    authorization: userAccessToken,
                 },
                 path: "/crash"
             });
 
-            console.log("After socket initialisation in WebSocketConnect");
-
-            socket.on('connect', () => {
+            this.socket.on('connect', () => {
                 console.log('Socket.IO connected');
             });
 
-            socket.on('message', (data) => {
-                console.log('Received message:', data);
-                // You can send data to Unity using SendMessage
-                // SendMessage('GameObjectName', 'MethodName', data);
-            });
+            // Recieving messages is handled separately by the PlatformEventReciever
+            this.socket.on('message', (data) => {});
 
-            socket.on('disconnect', () => {
+            this.socket.on('disconnect', () => {
                 console.log('Socket.IO disconnected');
             });
+        },
 
+        WebSocketSend: function(message) {
+            console.log("Executing WebSocketSend");
+            if (this.socket) {
+                this.socket.emit('message', message);
+                console.log('Message sent:', message);
+            } else {
+                console.log('WebSocket is not connected.');
+            }
+        },
 
-    },
-    WebSocketSend: function(message) {
-        console.log("Executing WebSocketSend");
-    },
-    WebSocketClose: function() {
-        console.log("Executing WebSocketClose");
-    }
+        WebSocketClose: function() {
+            if (this.socket) {
+                this.socket.close();
+                console.log("WebSocket closed");
+            } else {
+                console.log('WebSocket is not connected.');
+            }
+        }
 });
