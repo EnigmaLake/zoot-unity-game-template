@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
+using System.Runtime.InteropServices;
 
 public class EventReceiver : MonoBehaviour
 {
+
+    [DllImport("__Internal")]
+    private static extern void Apple();
+
+    [DllImport("__Internal")]
+    private static extern void SetupMessageEventListeners();
+
     void Start()
     {
-        if (Application.platform == RuntimePlatform.WebGLPlayer)
-        {
-            Debug.Log("Running in a WebGL context");
-            Application.ExternalEval("if (typeof SetupMessageEventListeners === 'function') { SetupMessageEventListeners(); } else { console.error('SetupMessageEventListeners function is not defined.'); }");
-        }
-        else
-        {
-            Debug.Log("Error: not running in a WebGL context");
-        }
+
+        Apple();
+
+        SetupMessageEventListeners();
     }
 }

@@ -14,6 +14,8 @@
 
 extern void BetCashoutFailedIncomingPayload__ctor_mB51B7FED38F8C4AA269D2B229D6E156F2F4060E9 (void);
 extern void DebugHelper_LogObject_m06863D61AB1FFAFCF2CC6EA3A216959F2E1BB589 (void);
+extern void EventReceiver_Apple_m4C11D00AB042D4069029E55C355C925C114409B7 (void);
+extern void EventReceiver_SetupMessageEventListeners_m5D982F69D58AF05E1476F278F7607D8DAC7AB8FF (void);
 extern void EventReceiver_Start_mBF0A4CEAE973DDC7E77C70206AF721A6FFA3A56C (void);
 extern void EventReceiver__ctor_mCC77C83D88D0CA1977DDF1BD272D6C414F681DD4 (void);
 extern void SocketManager_Start_m44A20DB89A5C7DB6C3ADA5783CD3C601F5878A98 (void);
@@ -46,10 +48,12 @@ extern void U3CBetRegisterU3Ed__26_MoveNext_mB27C92F5EEAD13C2CF7C4B22B220FACCC35
 extern void U3CBetRegisterU3Ed__26_SetStateMachine_m1127163C1FA8A8CCD732DD886AD5DE0E76139E17 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[34] = 
+static Il2CppMethodPointer s_methodPointers[36] = 
 {
 	BetCashoutFailedIncomingPayload__ctor_mB51B7FED38F8C4AA269D2B229D6E156F2F4060E9,
 	DebugHelper_LogObject_m06863D61AB1FFAFCF2CC6EA3A216959F2E1BB589,
+	EventReceiver_Apple_m4C11D00AB042D4069029E55C355C925C114409B7,
+	EventReceiver_SetupMessageEventListeners_m5D982F69D58AF05E1476F278F7607D8DAC7AB8FF,
 	EventReceiver_Start_mBF0A4CEAE973DDC7E77C70206AF721A6FFA3A56C,
 	EventReceiver__ctor_mCC77C83D88D0CA1977DDF1BD272D6C414F681DD4,
 	SocketManager_Start_m44A20DB89A5C7DB6C3ADA5783CD3C601F5878A98,
@@ -91,17 +95,19 @@ extern void U3CBetRegisterU3Ed__26_MoveNext_mB27C92F5EEAD13C2CF7C4B22B220FACCC35
 extern void U3CBetRegisterU3Ed__26_SetStateMachine_m1127163C1FA8A8CCD732DD886AD5DE0E76139E17_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
 {
-	{ 0x0600001B, U3CBetCashoutU3Ed__27_MoveNext_mF9635FFA6D54D6F8CDF4621D0930687956B08DC1_AdjustorThunk },
-	{ 0x0600001C, U3CBetCashoutU3Ed__27_SetStateMachine_m75331099407769B6220A27FBBEEFA90387AE8CAD_AdjustorThunk },
-	{ 0x0600001D, U3CBetListU3Ed__28_MoveNext_m71A074AD81D8766516257D5CFBCE6AD9252A697F_AdjustorThunk },
-	{ 0x0600001E, U3CBetListU3Ed__28_SetStateMachine_mEA15258541FC80215FA7026198B25C9230098B5F_AdjustorThunk },
-	{ 0x0600001F, U3CBetRegisterU3Ed__26_MoveNext_mB27C92F5EEAD13C2CF7C4B22B220FACCC35D9C8D_AdjustorThunk },
-	{ 0x06000020, U3CBetRegisterU3Ed__26_SetStateMachine_m1127163C1FA8A8CCD732DD886AD5DE0E76139E17_AdjustorThunk },
+	{ 0x0600001D, U3CBetCashoutU3Ed__27_MoveNext_mF9635FFA6D54D6F8CDF4621D0930687956B08DC1_AdjustorThunk },
+	{ 0x0600001E, U3CBetCashoutU3Ed__27_SetStateMachine_m75331099407769B6220A27FBBEEFA90387AE8CAD_AdjustorThunk },
+	{ 0x0600001F, U3CBetListU3Ed__28_MoveNext_m71A074AD81D8766516257D5CFBCE6AD9252A697F_AdjustorThunk },
+	{ 0x06000020, U3CBetListU3Ed__28_SetStateMachine_mEA15258541FC80215FA7026198B25C9230098B5F_AdjustorThunk },
+	{ 0x06000021, U3CBetRegisterU3Ed__26_MoveNext_mB27C92F5EEAD13C2CF7C4B22B220FACCC35D9C8D_AdjustorThunk },
+	{ 0x06000022, U3CBetRegisterU3Ed__26_SetStateMachine_m1127163C1FA8A8CCD732DD886AD5DE0E76139E17_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[34] = 
+static const int32_t s_InvokerIndices[36] = 
 {
 	5232,
 	7604,
+	7773,
+	7773,
 	5232,
 	5232,
 	5232,
@@ -139,7 +145,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	34,
+	36,
 	s_methodPointers,
 	6,
 	s_adjustorThunks,
