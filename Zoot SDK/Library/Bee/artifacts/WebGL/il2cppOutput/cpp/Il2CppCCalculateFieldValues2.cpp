@@ -4958,6 +4958,8 @@ struct GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4  : publ
 {
 	String_t* ___DefaultSocketUrl;
 	String_t* ___UserAccessToken;
+	String_t* ___UserPictureUrl;
+	String_t* ___UserNickname;
 	String_t* ___UserId;
 	String_t* ___Path;
 	String_t* ___GameRoundUuid;
@@ -7188,9 +7190,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6692[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6693[2] = 
 {
 	static_cast<int32_t>(offsetof(SocketMessage_t4480A772F2F290E3C912AFD4D991AB29036AF90C, ___eventName)),static_cast<int32_t>(offsetof(SocketMessage_t4480A772F2F290E3C912AFD4D991AB29036AF90C, ___data)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6694[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6694[10] = 
 {
-	static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___DefaultSocketUrl)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserAccessToken)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserId)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___Path)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___GameRoundUuid)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___playAmount)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___coinTypeId)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___CurrentGameRoundStatus)),};
+	static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___DefaultSocketUrl)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserAccessToken)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserPictureUrl)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserNickname)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___UserId)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___Path)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___GameRoundUuid)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___playAmount)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___coinTypeId)),static_cast<int32_t>(offsetof(GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4, ___CurrentGameRoundStatus)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable6695[3] = 
 {
 	static_cast<int32_t>(offsetof(UserInformation_tE9A5F12B9DA426B8EF16FD3CB5C9DDC2CFFA68C1, ___type)),static_cast<int32_t>(offsetof(UserInformation_tE9A5F12B9DA426B8EF16FD3CB5C9DDC2CFFA68C1, ___event_id)),static_cast<int32_t>(offsetof(UserInformation_tE9A5F12B9DA426B8EF16FD3CB5C9DDC2CFFA68C1, ___data)),};

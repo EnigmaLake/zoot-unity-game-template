@@ -24,8 +24,10 @@ public class GameServerSocketManager: MonoBehaviour
 
 
     public string DefaultSocketUrl = "http://localhost:8080/";
-    public string UserAccessToken = "user_access_token_123";
-    public string UserId = "15";
+    public string UserAccessToken = "not-set";
+    public string UserPictureUrl = "not-set";
+    public string UserNickname = "not-set";
+    public string UserId = "-1";
     public string Path = "/crash";
 
     public string GameRoundUuid = "test123";
@@ -115,10 +117,10 @@ public class GameServerSocketManager: MonoBehaviour
         {
             { "gameRoundUuid", GameRoundUuid },
             { "userId", UserId },
-            { "userNickname", "Richard" },
+            { "userNickname", UserNickname },
             { "playAmountInCents", playAmount * 100 },
             { "coinType", coinTypeId },
-            { "pictureUrl", "https://lh3.googleusercontent.com/a/ACg8ocLyp0TCe7yq2ydJJm3d32XgcP3yh8T2wEXBHL4zW2dk=s96-c" },
+            { "pictureUrl", UserPictureUrl },
             { "userAccessToken", UserAccessToken },
         };
 
@@ -135,7 +137,7 @@ public class GameServerSocketManager: MonoBehaviour
         {
             { "gameRoundUuid", GameRoundUuid },
             { "userId", UserId },
-            { "userNickname", "Richard" },
+            { "userNickname", UserNickname },
             { "userAccessToken", UserAccessToken },
         };
 
@@ -152,7 +154,7 @@ public class GameServerSocketManager: MonoBehaviour
         {
             { "gameRoundUuid", GameRoundUuid },
             { "userId", UserId },
-            { "userNickname", "Richard" },
+            { "userNickname", UserNickname },
             { "userAccessToken", UserAccessToken },
         };
 

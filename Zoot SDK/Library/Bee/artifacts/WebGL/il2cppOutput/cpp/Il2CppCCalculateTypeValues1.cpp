@@ -9705,6 +9705,8 @@ struct GameServerSocketManager_t3173BB79803CE38CE90DB670950BB922D287AAD4  : publ
 {
 	String_t* ___DefaultSocketUrl;
 	String_t* ___UserAccessToken;
+	String_t* ___UserPictureUrl;
+	String_t* ___UserNickname;
 	String_t* ___UserId;
 	String_t* ___Path;
 	String_t* ___GameRoundUuid;

@@ -969,7 +969,7 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 85d729c62a0fc8d572877bfdbde9a5f8
+      Hash: 4f1a6f4537fa6872ec22356478adefa5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameServerSocketManager

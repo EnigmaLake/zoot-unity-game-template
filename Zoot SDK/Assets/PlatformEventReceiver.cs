@@ -60,11 +60,13 @@ public class PlatformEventReceiver : MonoBehaviour
         // Update the game server socket manager with the new data
         gameServerSocketManager.UserAccessToken = userInfo.data.accessToken;
         gameServerSocketManager.UserId = userInfo.data.id.ToString();
+        gameServerSocketManager.UserNickname = userInfo.data.nickname;
+        gameServerSocketManager.UserPictureUrl = userInfo.data.avatar;
 
+        Debug.Log("AccessToken: " + userInfo.data.accessToken);
+        Debug.Log("UserId: " + userInfo.data.id);
         Debug.Log("Nickname: " + userInfo.data.nickname);
         Debug.Log("Avatar URL: " + userInfo.data.avatar);
-        Debug.Log("UserId: " + userInfo.data.id);
-        Debug.Log("AccessToken: " + userInfo.data.accessToken);
     }
 
 }
