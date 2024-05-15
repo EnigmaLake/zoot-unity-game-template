@@ -988,4 +988,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/razvanpavelescu/enigma-lake/zoot-unity-sdk/Zoot SDK/Zoot Html
+  playerPath: /Users/razvanpavelescu/enigma-lake/zoot-unity-sdk/Zoot SDK/ZootSdkHtml
