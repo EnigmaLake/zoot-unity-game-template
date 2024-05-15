@@ -114,32 +114,6 @@
             }).catch((message) => {
                 alert(message);
             });
-
-            console.log("Before socket initialisation");
-
-            const socket = io('http://localhost:8080', {
-                auth: {
-                    userId: 15,
-                    authorization: "no-token",
-                },
-                path: "crash"
-            });
-
-            console.log("After socket initialisation");
-
-            socket.on('connect', () => {
-                console.log('Socket.IO connected');
-            });
-
-            socket.on('message', (data) => {
-                console.log('Received message:', data);
-                // You can send data to Unity using SendMessage
-                // SendMessage('GameObjectName', 'MethodName', data);
-            });
-
-            socket.on('disconnect', () => {
-                console.log('Socket.IO disconnected');
-            });
         };
 
         document.body.appendChild(script);
