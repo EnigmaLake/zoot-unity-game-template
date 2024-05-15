@@ -66,7 +66,16 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: GameServerSocketManager
+    methodName: BetList
+  - assembly: Assembly-CSharp
+    fullTypeName: GameServerSocketManager
+    methodName: BetCashout
+  - assembly: Assembly-CSharp
+    fullTypeName: GameServerSocketManager
+    methodName: BetRegister
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
