@@ -589,3 +589,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/WebSocket.cs: 4fd527fa4ef3c691168aebcaec4c147d -> 
   custom:scripting/monoscript/fileName/DebugHelper.cs: 5243f7f98a5063519c022a5be4075a66 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3578.
+Memory consumption went from 89.8 MB to 89.8 MB.
+Total: 7.417083 ms (FindLiveObjects: 0.205083 ms CreateObjectMapping: 0.035500 ms MarkObjects: 7.128959 ms  DeleteObjects: 0.047000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/GameScene.cs: 7e96974e9842ac1bdf1228a6c59f9443 -> 
+  custom:scripting/monoscript/fileName/BetCashoutFailedIncomingPayload.cs: b81140addb11a1db4c793417b7b83b75 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/EventSender.cs: 922bd00506e933f00467c6201931a9b4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/EventReceiver.cs: 1842aef1b94e0a3fffda3c61f92e01a0 -> 
+  custom:scripting/monoscript/fileName/ExampleJsImport.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:scripting/monoscript/fileName/NewClass.cs: 309dad81748c1322e3da302f7e3f53d2 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/WebSocket.cs: 4fd527fa4ef3c691168aebcaec4c147d -> 
+  custom:scripting/monoscript/fileName/DebugHelper.cs: 5243f7f98a5063519c022a5be4075a66 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

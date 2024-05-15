@@ -4,9 +4,9 @@
 
             console.log({ url, userId, userAccessToken });
 
-            console.log("Before socket initialisation in WebSocketConnect");
+            console.log("Before socket initialisation in WebSocketConnect with ws");
 
-            const socket = io("http://localhost:8080", {
+            const socket = io("ws://localhost:8080", {
                 auth: {
                     userId: 15,
                     authorization: "no-token",
