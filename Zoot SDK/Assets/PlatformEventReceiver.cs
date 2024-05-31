@@ -15,13 +15,6 @@ public class PlatformEventReceiver : MonoBehaviour
         SetupMessageEventListeners();
     }
 
-    // Method to handle currency event from JavaScript
-    public void HandleGetUserCurrency(string message)
-    {
-        Debug.Log("Received currency info: " + message);
-        // Add your handling code here (parse message, update UI, etc.)
-    }
-
     public void HandleUserBalance(string message)
     {
         Debug.Log("Received user balance: " + message);
@@ -33,6 +26,33 @@ public class PlatformEventReceiver : MonoBehaviour
     }
 
     // Define a class to match the JSON structure
+    [System.Serializable]
+    public class UserCurrencyData
+    {
+        public string currency;
+    }
+
+    [System.Serializable]
+    public class UserCurrency
+    {
+        public string type;
+        public string event_id;
+        public UserCurrencyData data;
+    }
+
+    // Method to handle currency event from JavaScript
+    public void HandleGetUserCurrency(string jsonMessage)
+    {
+        Debug.Log("Received currency info: " + jsonMessage);
+        // Add your handling code here (parse message, update UI, etc.)
+
+        // Deserialize the JSON string into a UserInformation object
+        UserCurrency userCurrency = JsonUtility.FromJson<UserCurrency>(jsonMessage);
+
+        // Update the game server socket manager with the new data
+        Debug.Log("Active Currency" + userCurrency.data.currency);
+    }
+
     [System.Serializable]
     public class UserInformation
     {
